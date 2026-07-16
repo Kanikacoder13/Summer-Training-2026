@@ -74,10 +74,5 @@ By the end of this training, I expect to:
 - Develop analytical and problem-solving abilities.
 - Gain experience with AI development tools and workflows.
 - Build a well-documented record of my learning journey.
-
+  
 ---
-
-**Submitted as part of my 30-Day Summer Training Program in Artificial Intelligence & Machine Learning (AI & ML).**
-
-**Submitted as part of the Summer Training Program (2026).**
-

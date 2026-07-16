@@ -65,19 +65,19 @@ Throughout this training program, I will document:
 
 ---
 
-## Repository Structure
+## Learning Outcomes
 
-```
-Summer-Training-2026
-│── README.md
-│── Day-01.md
-│── Day-02.md
-│── Day-03.md
-│── ...
-│── Day-30.md
-```
+By the end of this training, I expect to:
+
+- Strengthen my understanding of AI & ML concepts.
+- Improve practical implementation skills.
+- Develop analytical and problem-solving abilities.
+- Gain experience with AI development tools and workflows.
+- Build a well-documented record of my learning journey.
 
 ---
+
+**Submitted as part of my 30-Day Summer Training Program in Artificial Intelligence & Machine Learning (AI & ML).**
 
 **Submitted as part of the Summer Training Program (2026).**
 

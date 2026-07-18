@@ -1,51 +1,78 @@
 # Day 06 - Summer Training Report
 
-# NumPy Slicing, Broadcasting and Vectorization
+# Python Programming Practice and Problem Solving
 
-**Training Domain:** Artificial Intelligence & Machine Learning (AI & ML)
+**Training Domain:** Artificial Intelligence & Machine Learning (AI & ML) using Python
 
 ---
 
 ## Objective
 
-The objective of today's session was to strengthen my understanding of NumPy by learning advanced array manipulation techniques such as slicing, views and copies, broadcasting, and vectorization. These concepts are essential for efficient data processing in AI & ML applications.
+The objective of today's session was to strengthen Python programming skills by solving practical coding problems based on the concepts learned in previous sessions. The focus was on improving logical thinking, function implementation, recursion, data structures, and solving AI & ML-oriented programming exercises.
 
 ---
 
 ## Topics Covered
 
-### 1. NumPy Slicing
+### 1. Function-Based Programming
+- Frequency counting using dictionaries.
+- Prime number checking using functions.
+- Finding prime numbers within a given range.
+- Sum of digits using arithmetic operations.
+- Temperature conversion using functions.
+- Palindrome checking.
 
-The session introduced slicing techniques for one-dimensional and two-dimensional arrays. Learned how to extract rows, columns, sub-arrays, and use the start, stop, and step parameters for efficient data access.
+### 2. Recursive Programming
+- Recursive Power calculation.
+- Decimal to Binary conversion using recursion.
 
-### 2. Views vs Copies
+### 3. Python Data Structures
+- Dictionary-based frequency counting.
+- List comprehension for data filtering.
+- Tuple validation and manipulation.
+- Set operations for duplicate removal.
+- Order-preserving deduplication of lists.
 
-The trainer explained the difference between **Views** and **Copies** in NumPy. Learned how views share memory with the original array, while copies create independent arrays using the `.copy()` method.
+### 4. Bitwise Operations
+- Odd/Even checking using Bitwise AND.
+- Multiplication using Left Shift.
+- Division using Right Shift.
 
-### 3. Broadcasting
+### 5. String Processing
+- Parsing numeric strings.
+- Jaccard Similarity for text comparison.
+- Palindrome validation ignoring spaces, punctuation, and letter case.
 
-The concept of Broadcasting was introduced to perform arithmetic operations on arrays of different shapes. The trainer demonstrated broadcasting rules, scalar operations, and operations between compatible arrays without using explicit loops.
-
-### 4. Vectorization
-
-The session covered Vectorization, which enables element-wise operations on entire arrays without traditional Python loops. The trainer explained how vectorized operations improve execution speed and computational efficiency.
-
-### 5. Practical Exercises
-
-The session concluded with practical exercises involving temperature conversion, salary filtering using Boolean indexing, matrix slicing, array copying, and vectorized arithmetic operations to reinforce the concepts learned.
+### 6. AI & ML-Oriented Programming Problems
+- Precision and Recall calculation.
+- Feature filtering and outlier removal.
+- Logging model training metrics using `*args` and `**kwargs`.
+- Image shape validation.
+- Customer and dataset preprocessing tasks.
+- Sensor anomaly detection.
+- Student ranking using `enumerate()` and `zip()`.
 
 ---
 
 ## Practical Activities Performed
 
-During the practical session, I performed the following activities:
+During the practical session, I solved and practiced programs related to:
 
-- Practiced one-dimensional and two-dimensional array slicing.
-- Created sub-arrays and extracted rows and columns.
-- Compared Views and Copies using the `.copy()` method.
-- Applied broadcasting between compatible arrays.
-- Performed vectorized arithmetic operations.
-- Solved practical exercises involving temperature conversion, salary filtering, and matrix manipulation.
+- Counting label frequencies using dictionaries.
+- Prime number generation using user-defined functions.
+- Recursive implementation of Power and Decimal-to-Binary conversion.
+- Sum of digits without string conversion.
+- Precision and Recall calculation for classification results.
+- Removing feature outliers using list comprehensions.
+- Logging AI model training information using variable-length arguments.
+- Temperature conversion between Celsius and Fahrenheit.
+- Sensor anomaly detection using loops with `break` and `else`.
+- Bitwise operator-based arithmetic operations.
+- Removing duplicate records using Sets.
+- Palindrome checking.
+- Image shape validation for AI datasets.
+- Removing duplicate elements while preserving insertion order.
+- Student ranking using `enumerate()` and `zip()`.
 
 ---
 
@@ -53,15 +80,14 @@ During the practical session, I performed the following activities:
 
 By the end of today's session, I was able to:
 
-- Apply slicing techniques to NumPy arrays.
-- Differentiate between Views and Copies.
-- Use the `.copy()` method to create independent arrays.
-- Perform efficient computations using Broadcasting.
-- Apply Vectorization to optimize numerical operations.
-- Understand the importance of these techniques in data processing for AI & ML.
+- Apply Python fundamentals to solve real-world programming problems.
+- Improve logical reasoning through function-based and recursive programming.
+- Implement bitwise operations for efficient computations.
+- Solve AI & ML-oriented data preprocessing and evaluation problems.
+- Strengthen coding skills through hands-on problem-solving exercises.
 
 ---
 
 ## Conclusion
 
-Today's session enhanced my understanding of advanced NumPy concepts, including slicing, broadcasting, vectorization, and memory management. The practical exercises improved my ability to manipulate datasets efficiently and prepared me for more advanced data analysis and Machine Learning tasks.
+Today's session was dedicated to extensive Python programming practice through a variety of logical and AI & ML-oriented coding problems. The hands-on exercises reinforced concepts such as functions, recursion, data structures, bitwise operations, and data preprocessing, helping improve programming proficiency and problem-solving skills required for future AI & Machine Learning applications.

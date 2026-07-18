@@ -40,12 +40,12 @@ Several exercises were based on AI & ML scenarios, including dataset filtering, 
 
 During the practical session, I solved programming problems related to:
 
-- Machine Learning evaluation metrics.
+- Solved problems related to Machine Learning evaluation metrics.
 - Function implementation using different argument types.
 - String processing and numerical data extraction.
 - Data preprocessing using list comprehension.
 - Temperature conversion using user-defined functions.
-- Jaccard Similarity calculation.
+- Implemented a program to calculate Jaccard Similarity.
 - Anomaly detection using loops and conditional statements.
 - Recursive programming for decimal-to-binary conversion.
 - Bitwise operations.

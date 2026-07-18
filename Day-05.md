@@ -1,46 +1,84 @@
 # Day 05 - Summer Training Report
 
-# Introduction to NumPy and Array Operations
+# NumPy Fundamentals and Essential Operations for AI & Machine Learning
 
-**Training Domain:** Artificial Intelligence & Machine Learning (AI & ML)
+**Training Domain:** Artificial Intelligence & Machine Learning (AI & ML) using Python
 
 ---
 
 ## Objective
 
-The objective of today's session was to introduce NumPy and understand its role in scientific computing and Artificial Intelligence. The session focused on creating NumPy arrays, exploring their attributes, performing indexing operations, and using Boolean indexing for efficient data filtering.
+The objective of today's session was to understand the fundamentals of NumPy and its importance in AI & Machine Learning. The session focused on efficient array operations, vectorization, indexing, slicing, broadcasting, data filtering, statistical analysis, reshaping, matrix operations, and practical data preprocessing techniques used in machine learning.
 
 ---
 
 ## Topics Covered
 
 ### 1. Introduction to NumPy
+- Introduction to NumPy (Numerical Python).
+- Importance of NumPy in AI & Machine Learning.
+- Comparison between Python Lists and NumPy Arrays.
+- Advantages of contiguous memory allocation and faster computations.
 
-The session introduced the NumPy library, its importance in data science, Machine Learning, and Artificial Intelligence, and demonstrated how to import it using the standard `import numpy as np` convention.
+### 2. Creating NumPy Arrays
+- Creating 1D and 2D arrays using `np.array()`.
+- Creating arrays using:
+  - `np.zeros()`
+  - `np.ones()`
+  - `np.arange()`
+- Array attributes:
+  - `shape`
+  - `dtype`
+  - `ndim`
 
-### 2. NumPy Arrays
+### 3. Vectorization
+- Performing mathematical operations without using loops.
+- Element-wise arithmetic operations.
+- Performance comparison between Python loops and NumPy vectorization.
+- Benefits of vectorization in large datasets.
 
-Learned how to create one-dimensional and two-dimensional arrays using different methods such as `array()`, `zeros()`, `ones()`, `eye()`, and `arange()`. The trainer also explained the advantages of NumPy arrays over Python lists in terms of performance and memory efficiency.
+### 4. Array Indexing and Slicing
+- Accessing individual elements.
+- Row-wise and column-wise indexing.
+- Array slicing.
+- Extracting features (`X`) and labels (`y`) from datasets.
+- Working with multidimensional arrays.
 
-### 3. Array Attributes
+### 5. Boolean Indexing and Data Filtering
+- Boolean masking.
+- Filtering data based on conditions.
+- Selecting required elements from arrays.
+- Data cleaning using Boolean masks.
+- Replacing invalid values using `np.where()`.
 
-The session covered important array attributes, including:
+### 6. Views and Copies
+- Difference between Views and Copies.
+- Memory sharing in NumPy arrays.
+- Creating independent copies using `.copy()`.
 
-- Shape (`shape`)
-- Dimensions (`ndim`)
-- Data type (`dtype`)
-- Size (`size`)
-- Item size (`itemsize`)
+### 7. Broadcasting
+- Introduction to Broadcasting.
+- Broadcasting rules.
+- Scalar and array broadcasting.
+- Broadcasting with matrices.
+- Standardizing datasets using broadcasting.
 
-These attributes help in understanding the structure and properties of NumPy arrays.
+### 8. Statistical Operations
+- Mean using `np.mean()`
+- Median using `np.median()`
+- Standard Deviation using `np.std()`
+- Column-wise and row-wise statistical calculations.
 
-### 4. Indexing in NumPy
+### 9. Reshaping and Flattening
+- Reshaping arrays using `reshape()`.
+- Flattening multidimensional arrays using `flatten()`.
+- Importance of reshaping for AI/ML model inputs.
 
-Learned indexing techniques for one-dimensional and two-dimensional arrays, including accessing, updating, and retrieving specific elements, rows, and columns.
-
-### 5. Boolean Indexing
-
-The trainer introduced Boolean Indexing for filtering array elements based on logical conditions. Practical examples demonstrated creating Boolean masks, selecting data, and modifying array values. Its importance in data preprocessing for Machine Learning was also discussed.
+### 10. Matrix Operations
+- Matrix multiplication using:
+  - `np.dot()`
+  - `@` operator
+- Neural network input-weight multiplication.
 
 ---
 
@@ -48,13 +86,27 @@ The trainer introduced Boolean Indexing for filtering array elements based on lo
 
 During the practical session, I performed the following activities:
 
-- Imported the NumPy library.
-- Created one-dimensional and two-dimensional arrays.
-- Generated arrays using `zeros()`, `ones()`, `eye()`, and `arange()`.
-- Examined array attributes such as shape, dimensions, size, and data type.
-- Accessed and modified array elements using indexing.
-- Retrieved rows and columns from two-dimensional arrays.
-- Applied Boolean indexing to filter and modify array elements.
+- Created 1D and 2D NumPy arrays.
+- Practiced array initialization using `zeros()`, `ones()`, and `arange()`.
+- Compared the execution speed of Python loops with NumPy vectorized operations.
+- Performed element-wise arithmetic operations on arrays.
+- Implemented indexing and slicing on one-dimensional and two-dimensional arrays.
+- Extracted feature matrices (`X`) and target labels (`y`) from sample datasets.
+- Filtered arrays using Boolean indexing.
+- Cleaned datasets using Boolean masks and `np.where()`.
+- Explored the difference between array Views and Copies using `.copy()`.
+- Applied broadcasting for arithmetic operations and feature standardization.
+- Calculated statistical measures including mean, median, and standard deviation.
+- Reshaped and flattened arrays for machine learning data preparation.
+- Performed matrix multiplication using `np.dot()` and the `@` operator.
+- Solved practical exercises including:
+  - Celsius to Fahrenheit conversion using vectorization.
+  - Salary filtering and data cleaning.
+  - Matrix slicing operations.
+  - Safe copy creation using `.copy()`.
+  - Feature and label extraction from datasets.
+  - Customer age outlier correction using `np.where()`.
+  - Feature normalization using broadcasting.
 
 ---
 
@@ -62,15 +114,19 @@ During the practical session, I performed the following activities:
 
 By the end of today's session, I was able to:
 
-- Understand the purpose and importance of NumPy.
-- Create and manipulate NumPy arrays efficiently.
-- Interpret different array attributes.
-- Perform indexing operations on NumPy arrays.
-- Apply Boolean indexing for filtering and modifying data.
-- Recognize the role of NumPy in data preprocessing and AI & ML applications.
+- Understand the advantages of NumPy over Python lists.
+- Create and manipulate one-dimensional and two-dimensional arrays.
+- Perform efficient mathematical operations using vectorization.
+- Apply indexing and slicing techniques for dataset manipulation.
+- Clean and filter datasets using Boolean indexing and `np.where()`.
+- Differentiate between array Views and Copies.
+- Use broadcasting for efficient array computations.
+- Calculate statistical summaries for datasets.
+- Reshape and flatten arrays for AI & ML applications.
+- Perform matrix multiplication and basic data preprocessing using NumPy.
 
 ---
 
 ## Conclusion
 
-Today's session introduced the fundamentals of NumPy and its practical applications in numerical computing. The concepts of array creation, indexing, and Boolean filtering provided a strong foundation for handling data efficiently, which is essential for future AI & ML projects.
+Today's session introduced NumPy as a powerful library for numerical computing and data processing in Artificial Intelligence and Machine Learning. Through extensive hands-on exercises, I learned how to efficiently create, manipulate, filter, reshape, and analyze datasets using NumPy. The practical implementation of vectorization, broadcasting, statistical operations, and matrix manipulation provided a strong foundation for handling real-world AI & ML datasets.

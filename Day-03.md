@@ -1,44 +1,68 @@
 # Day 03 - Summer Training Report
 
-# Functions and Types of Arguments in Python
+# Python Functions and Modular Programming
 
-**Training Domain:** Artificial Intelligence & Machine Learning (AI & ML)
+**Training Domain:** Artificial Intelligence & Machine Learning (AI & ML) using Python
 
 ---
 
 ## Objective
 
-The objective of today's session was to understand the concept of functions in Python and learn how they improve code reusability, readability, and modular programming. The session also introduced different methods of passing arguments to functions.
+The objective of today's session was to understand Python functions and modular programming. The session focused on creating reusable code using functions, passing arguments, returning values, understanding variable scope, and implementing recursive functions for problem-solving.
 
 ---
 
 ## Topics Covered
 
-### 1. Introduction to Functions
-
-The session introduced Python functions and their importance in organizing programs into reusable and manageable blocks of code. The trainer explained function definition, syntax, function calling, and the advantages of modular programming.
+### 1. Built-in Functions
+- Introduction to Python built-in functions.
+- Working with:
+  - `len()`
+  - `sum()`
+  - `max()`
+  - `min()`
+  - `abs()`
+  - `round()`
+  - `print()`
+- Practical applications of built-in functions using lists, strings, and AI/ML-related examples.
 
 ### 2. User-Defined Functions
+- Creating functions using the `def` keyword.
+- Calling functions.
+- Writing reusable and modular code.
+- Functions with single and multiple parameters.
 
-Learned how to create user-defined functions using the `def` keyword. The trainer demonstrated how functions execute specific tasks, accept input through parameters, and improve code reusability.
+### 3. Parameters and Arguments
+- Difference between Parameters and Arguments.
+- Passing values to functions.
+- Functions with multiple parameters.
+- Calculator function using parameters.
+- Multiplication table function.
 
-### 3. Parameters and Return Values
+### 4. Return Statement
+- Returning values from functions using `return`.
+- Difference between `print()` and `return`.
+- Using returned values in further calculations.
+- Prime number checking using a function.
 
-The session covered passing values to functions, receiving parameters, and returning results using the `return` statement. The difference between printing a value and returning a value was also explained.
+### 5. Types of Arguments
+- Positional Arguments.
+- Keyword Arguments.
+- Default Arguments.
+- Variable-Length Arguments (`*args`).
+- Keyword Variable-Length Arguments (`**kwargs`).
 
-### 4. Practical Programming using Functions
+### 6. Variable Scope
+- Local Variables.
+- Global Variables.
+- Scope of variables inside and outside functions.
+- Modifying global variables using the `global` keyword.
 
-Implemented programs using functions, including a Prime Number checker and other mathematical operations. These examples demonstrated how functions simplify programming by reducing code repetition.
-
-### 5. Types of Arguments in Python
-
-The trainer introduced different ways of passing arguments to functions, including:
-
-- **Positional Arguments**
-- **Keyword Arguments**
-- **Default Arguments**
-
-Practical examples demonstrated the usage and advantages of each type.
+### 7. Recursive Functions
+- Introduction to Recursion.
+- Base Case and Recursive Case.
+- Recursive implementation of Factorial.
+- Recursive implementation of Fibonacci Sequence.
 
 ---
 
@@ -46,12 +70,18 @@ Practical examples demonstrated the usage and advantages of each type.
 
 During the practical session, I performed the following activities:
 
-- Created user-defined functions using the `def` keyword.
-- Called functions with different inputs.
-- Passed parameters and returned values from functions.
-- Implemented a Prime Number checking program.
+- Practiced Python built-in functions using numerical lists and strings.
+- Applied built-in functions to calculate dataset size, maximum value, minimum value, total, average, absolute values, and rounded values.
+- Created user-defined functions for greeting users and performing arithmetic operations.
+- Developed a function to print the multiplication table of a given number.
+- Implemented an addition function using parameters.
+- Created functions that returned values using the `return` statement.
+- Solved the Prime Number checking problem using a function.
 - Practiced positional, keyword, and default arguments.
-- Compared different methods of passing arguments in Python functions.
+- Implemented examples using `*args` and `**kwargs`.
+- Worked with dictionaries using the `items()` method.
+- Practiced Local and Global variable scope using the `global` keyword.
+- Implemented recursive programs for Factorial and Fibonacci Sequence.
 
 ---
 
@@ -59,14 +89,17 @@ During the practical session, I performed the following activities:
 
 By the end of today's session, I was able to:
 
-- Understand the purpose and importance of functions in Python.
-- Create and use user-defined functions effectively.
-- Pass and return values using functions.
-- Differentiate between positional, keyword, and default arguments.
-- Improve program organization through reusable functions.
+- Understand the importance of functions in modular programming.
+- Create and call user-defined functions with different types of parameters.
+- Use the `return` statement to pass values from functions.
+- Differentiate between positional, keyword, default, and variable-length arguments.
+- Understand the scope of local and global variables.
+- Modify global variables using the `global` keyword.
+- Implement recursive solutions for mathematical problems such as Factorial and Fibonacci.
+- Apply built-in Python functions effectively in practical programming.
 
 ---
 
 ## Conclusion
 
-Today's session strengthened my understanding of Python functions and their role in developing modular and reusable programs. Learning different types of function arguments enhanced my ability to write flexible and well-structured Python code, which will be valuable for future AI & ML applications.
+Today's session focused on Python Functions and Modular Programming, which are essential for writing organized, reusable, and efficient code. Through extensive practical exercises, I learned how to create custom functions, use different types of arguments, return values, manage variable scope, and implement recursion. These concepts provide a strong programming foundation for developing AI & ML applications.

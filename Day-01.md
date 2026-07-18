@@ -1,42 +1,68 @@
 # Day 01 - Summer Training Report
 
-# Python Fundamentals and Programming Basics
+# Python Basics - Variables and Data Types
 
-**Training Domain:** Artificial Intelligence & Machine Learning (AI & ML)
+**Training Domain:** Artificial Intelligence & Machine Learning (AI & ML) using Python
 
 ---
 
 ## Objective
 
-The objective of today's session was to build a strong foundation in Python programming by understanding its basic syntax, variables, data types, memory management, operators, and decision-making statements. These concepts form the foundation for learning Artificial Intelligence and Machine Learning.
+The objective of today's session was to understand the fundamentals of Python programming by learning how variables, data types, memory references, collections, and operators work. These concepts provide the programming foundation required for Artificial Intelligence and Machine Learning.
 
 ---
 
 ## Topics Covered
 
-### 1. Introduction to Python
+### 1. Python Variables and Memory References
+- Introduction to Python variables.
+- Variables as references to objects in memory.
+- Understanding object identity using `id()`.
+- Checking data types using `type()`.
+- Reference sharing between variables.
+- Dynamic typing in Python.
 
-The session began with an introduction to Python, its features, applications, and importance in software development, data science, Artificial Intelligence, and Machine Learning. The trainer also demonstrated how to set up Python in Visual Studio Code and create and execute Python files.
+### 2. Python Data Types
+- Numeric data types (`int`, `float`, `complex`)
+- String (`str`)
+- Boolean (`bool`)
+- `NoneType`
+- Introduction to Python collection types:
+  - List
+  - Tuple
+  - Dictionary
+  - Set
 
-### 2. Python Output Statements
+### 3. Mutable and Immutable Objects
+- Difference between mutable and immutable data types.
+- Behaviour of integers and lists during modification.
+- Reference sharing with mutable objects.
+- Creating copies using `copy()` to avoid unintended changes.
 
-Learned the use of the `print()` function for displaying output, printing variables and strings, and formatting output using **f-strings**.
+### 4. Type Casting
+- Implicit type conversion.
+- Explicit type conversion using:
+  - `int()`
+  - `float()`
+  - `str()`
+  - `list()`
+  - `tuple()`
+  - `set()`
 
-### 3. Variables and Memory Management
+### 5. Variable Naming Conventions
+- Rules for naming variables.
+- Python naming standards (PEP 8).
+- Writing meaningful and readable variable names.
 
-Learned about variables, dynamic memory allocation, object references, and the use of the `type()` and `id()` functions to identify data types and memory addresses. The concept of reference sharing between variables was also discussed.
-
-### 4. Python Data Types
-
-Studied Python's core built-in data types, including Numeric (`int`, `float`, `complex`), String, Boolean, and `None` types. The session also covered mutable and immutable objects along with basic type conversion.
-
-### 5. Python Operators
-
-Covered the different categories of Python operators, including Arithmetic, Relational, Logical, Assignment, and Bitwise operators, and practiced their use through simple programming examples.
-
-### 6. Decision Making
-
-Introduced decision-making statements using `if`, `elif`, and `else`. The trainer explained how conditional statements work with comparison and logical operators. Taking input from the user using the `input()` function was also demonstrated.
+### 6. Python Operators
+The trainer explained and demonstrated the use of:
+- Arithmetic Operators
+- Assignment Operators
+- Comparison Operators
+- Logical Operators
+- Membership Operators
+- Identity Operators
+- Bitwise Operators *(covered up to this topic during today's session).*
 
 ---
 
@@ -44,17 +70,14 @@ Introduced decision-making statements using `if`, `elif`, and `else`. The traine
 
 During the practical session, I performed the following activities:
 
-- Configured Python in Visual Studio Code.
-- Created and executed Python programs.
-- Printed strings and variables using the `print()` function.
-- Practiced formatted output using f-strings.
-- Declared variables of different data types.
-- Used the `type()` and `id()` functions to understand data types and object references.
-- Explored mutable and immutable objects.
-- Performed operations using different categories of Python operators.
-- Implemented an Even/Odd number checking program using `if-else`.
-- Developed a program to calculate the percentage of five subjects.
-- Practiced decision-making using `if`, `elif`, and `else`.
+- Executed Python programs using variables and user input.
+- Used `print()`, `input()`, `type()`, and `id()` functions.
+- Implemented a simple Student Result Card program to display Pass/Fail status based on marks.
+- Practiced reference sharing between variables.
+- Performed experiments on mutable and immutable objects.
+- Applied type conversion between different data types.
+- Worked with Python collection data types.
+- Executed examples demonstrating different categories of Python operators.
 
 ---
 
@@ -62,15 +85,16 @@ During the practical session, I performed the following activities:
 
 By the end of today's session, I was able to:
 
-- Understand the fundamentals of Python programming.
-- Create and execute Python programs in Visual Studio Code.
-- Work with variables, data types, and memory references.
-- Apply different categories of Python operators.
-- Use conditional statements to solve simple programming problems.
-- Develop basic Python programs using user input and logical conditions.
+- Understand how Python stores variables as object references.
+- Differentiate between mutable and immutable objects.
+- Work with Python's built-in data types and collection types.
+- Apply implicit and explicit type conversion.
+- Follow standard variable naming conventions.
+- Use different categories of Python operators.
+- Develop simple Python programs using user input and conditional logic.
 
 ---
 
 ## Conclusion
 
-Today's session provided a strong foundation in Python programming by introducing the essential concepts required for future AI & ML learning. The practical exercises helped strengthen my understanding of variables, data types, operators, and decision-making, preparing me for more advanced programming concepts in the upcoming sessions.
+The first day of the training focused on building a strong foundation in Python programming. I learned about variables, memory references, data types, mutability, type conversion, collection data types, naming conventions, and Python operators up to Bitwise Operators. The practical exercises helped reinforce these concepts and prepared me for the upcoming AI & ML sessions, where the remaining topics from today's notes will be continued.

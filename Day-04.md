@@ -1,51 +1,76 @@
 # Day 04 - Summer Training Report
 
-# Python Functions, Scope and Data Structures
+# Python Data Structures
 
-**Training Domain:** Artificial Intelligence & Machine Learning (AI & ML)
+**Training Domain:** Artificial Intelligence & Machine Learning (AI & ML) using Python
 
 ---
 
 ## Objective
 
-The objective of today's session was to strengthen the understanding of Python functions by learning variable scope and recursion. The session also introduced Python's built-in data structures, which are widely used for organizing and managing data in AI & ML applications.
+The objective of today's session was to understand Python Data Structures and their role in organizing, storing, and processing data efficiently. The session focused on Lists, Tuples, Dictionaries, and Sets along with their practical applications in AI & Machine Learning.
 
 ---
 
 ## Topics Covered
 
-### 1. Variable Scope
+### 1. Python Lists
+- Introduction to Lists and their characteristics.
+- Mutable nature of lists.
+- Memory representation and object references.
+- List indexing and slicing.
+- Common list methods:
+  - `append()`
+  - `extend()`
+  - `insert()`
+  - `remove()`
+  - `pop()`
+  - `sort()`
+  - `sorted()`
+- Iterating through lists.
+- Updating list elements.
+- Practical applications of lists in AI/ML datasets.
 
-The session continued with advanced function concepts by introducing variable scope. The trainer explained the difference between **local** and **global** variables, variable accessibility within functions, and the use of the `global` keyword.
+### 2. Python Tuples
+- Introduction to Tuples.
+- Immutable nature of tuples.
+- Advantages of tuples.
+- Tuple packing and unpacking.
+- Wildcard unpacking using `*`.
+- Converting between tuples and lists.
+- Applications of tuples in AI/ML (image dimensions and dataset splits).
 
-### 2. Recursive Functions
+### 3. Python Dictionaries
+- Introduction to key-value mapping.
+- Dictionary creation and modification.
+- Rules for dictionary keys.
+- Accessing values using keys.
+- Safe lookup using `get()`.
+- Dictionary methods:
+  - `keys()`
+  - `values()`
+  - `items()`
+- Updating and adding key-value pairs.
+- Iterating through dictionaries.
+- Applications in storing model configurations and evaluation metrics.
 
-The concept of recursion was introduced, where a function calls itself until a terminating condition is met. Practical examples, including **Factorial** and **Fibonacci Series**, were used to demonstrate recursive programming.
+### 4. Python Sets
+- Introduction to Sets.
+- Unique and unordered collections.
+- Removing duplicate values.
+- Membership testing.
+- Set operations:
+  - Union
+  - Intersection
+  - Difference
+  - Symmetric Difference
+- Applications in handling unique class labels and datasets.
 
-### 3. Introduction to Python Data Structures
-
-The trainer introduced Python's built-in data structures and explained their importance in storing, organizing, and processing data efficiently. The major data structures covered were:
-
-- Lists
-- Tuples
-- Dictionaries
-- Sets
-
-### 4. Lists
-
-Learned how to create and manipulate lists using indexing, slicing, updating elements, nested lists, list methods, and list comprehension. The trainer also discussed the role of lists in data preprocessing tasks.
-
-### 5. Tuples
-
-The session covered tuple creation, tuple packing and unpacking, accessing elements, and the immutable nature of tuples.
-
-### 6. Dictionaries
-
-Learned how to create dictionaries, access and update values, add new key-value pairs, use the `get()` method, and iterate through dictionary items. Practical examples demonstrated the use of dictionaries for structured data storage.
-
-### 7. Sets
-
-The trainer introduced sets and explained their use in storing unique elements. Set operations such as **Union**, **Intersection**, **Difference**, and **Symmetric Difference** were demonstrated through practical examples.
+### 5. Data Structures in AI & ML
+- Using Lists for storing prediction values and training losses.
+- Using Tuples for dataset and image metadata.
+- Using Dictionaries for model configuration and vocabulary indexing.
+- Using Sets for class label management and duplicate removal.
 
 ---
 
@@ -53,15 +78,19 @@ The trainer introduced sets and explained their use in storing unique elements. 
 
 During the practical session, I performed the following activities:
 
-- Implemented programs using local and global variables.
-- Practiced the use of the `global` keyword.
-- Developed recursive programs for Factorial and Fibonacci Series.
-- Created and manipulated Lists using indexing, slicing, and list comprehension.
-- Practiced tuple packing and unpacking.
-- Performed Dictionary operations such as insertion, updating, and retrieval of data.
-- Iterated through dictionary key-value pairs.
-- Applied Set operations including Union, Intersection, Difference, and Symmetric Difference.
-- Solved programming exercises based on Python data structures.
+- Practiced various List operations including insertion, deletion, updating, slicing, sorting, and iteration.
+- Implemented programs to find pairs of numbers with a given sum.
+- Developed a password validation program using lists.
+- Solved an Outlier/Noise Filtering problem for prediction values.
+- Performed tuple unpacking and wildcard unpacking.
+- Implemented a Dataset Split Unpacker using tuples.
+- Created and modified dictionaries using different dictionary methods.
+- Built a Safe Vocabulary Word Indexer using dictionaries.
+- Practiced set creation and removal of duplicate elements.
+- Performed Union, Intersection, Difference, and Symmetric Difference operations.
+- Implemented a Clean & Overlap Checker using sets.
+- Solved a Confusion Matrix evaluation problem by calculating TP, TN, FP, FN, and Accuracy.
+- Developed a Customer Dataset Preprocessing Pipeline involving duplicate removal, invalid data filtering, record counting, and average age calculation.
 
 ---
 
@@ -69,15 +98,16 @@ During the practical session, I performed the following activities:
 
 By the end of today's session, I was able to:
 
-- Understand the scope of variables in Python.
-- Differentiate between local and global variables.
-- Implement recursive functions for solving programming problems.
-- Work with Python's built-in data structures.
-- Store and manipulate data using Lists, Tuples, Dictionaries, and Sets.
-- Apply data structures for efficient data organization and processing.
+- Understand the characteristics and applications of Python Lists, Tuples, Dictionaries, and Sets.
+- Perform various operations on Python data structures efficiently.
+- Apply different data structures for organizing and manipulating AI/ML datasets.
+- Use dictionary methods for storing and retrieving structured information.
+- Perform mathematical operations using sets for dataset analysis.
+- Solve real-world data preprocessing problems using appropriate Python data structures.
+- Strengthen logical thinking through hands-on programming exercises based on AI & ML scenarios.
 
 ---
 
 ## Conclusion
 
-Today's session strengthened my understanding of advanced Python concepts by covering variable scope, recursion, and built-in data structures. The practical exercises improved my ability to organize, process, and manage data efficiently, providing a strong foundation for future AI & ML programming tasks.
+Today's session provided a comprehensive understanding of Python Data Structures and their practical applications in Artificial Intelligence and Machine Learning. Through multiple coding exercises and real-world dataset problems, I learned how to efficiently store, manipulate, and preprocess data using Lists, Tuples, Dictionaries, and Sets. These concepts are essential for building data-driven AI & ML applications.

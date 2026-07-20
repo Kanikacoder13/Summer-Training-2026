@@ -1,4 +1,4 @@
-# Day 14 - Summer Training Report
+# Day 15 - Summer Training Report
 
 # Ridge and Lasso Regression for Regularization
 

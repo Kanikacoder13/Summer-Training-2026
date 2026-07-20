@@ -1,6 +1,6 @@
 # Day 09 - Summer Training Report
 
-# Exploratory Data Analysis (EDA) using Pandas, Matplotlib, and Seaborn
+# Exploratory Data Analysis (EDA): Dataset Exploration and Univariate Analysis
 
 **Training Domain:** Artificial Intelligence & Machine Learning (AI & ML) using Python
 
@@ -8,51 +8,46 @@
 
 ## Objective
 
-The objective of today's session was to understand the fundamentals of Exploratory Data Analysis (EDA) by analyzing a real-world housing dataset. The session focused on inspecting data, identifying patterns, detecting outliers, visualizing relationships between features, and drawing meaningful insights before applying Machine Learning algorithms.
+The objective of today's session was to understand the fundamentals of Exploratory Data Analysis (EDA) and learn how to inspect, understand, and summarize a real-world dataset before applying Machine Learning algorithms. The session focused on dataset exploration, identifying missing values, understanding feature distributions, and performing univariate analysis using visualization techniques.
 
 ---
 
 ## Topics Covered
 
 ### 1. Introduction to Exploratory Data Analysis (EDA)
+
 - Importance of EDA in Machine Learning.
-- Understanding datasets before model building.
+- Understanding data before model building.
 - Steps involved in exploratory data analysis.
-- Identifying patterns, trends, and anomalies in data.
+- Identifying patterns, trends, and anomalies in datasets.
 
-### 2. Dataset Loading and Inspection
+### 2. Loading and Inspecting the Dataset
+
 - Loading the House Price dataset using Pandas.
-- Exploring dataset structure.
-- Viewing dataset information using:
-  - `head()`
-  - `info()`
-  - `columns`
-  - `shape`
-  - `dtypes`
-- Checking missing values using `isnull().sum()`.
+- Displaying initial records using `head()`.
+- Understanding dataset dimensions.
+- Inspecting column names and data types.
+- Checking dataset information using `info()`.
+- Identifying missing values using `isnull().sum()`.
 
-### 3. Univariate Analysis
-- Distribution of house prices using Histogram.
-- Understanding price distribution with Kernel Density Estimation (KDE).
-- Bedroom count analysis using Count Plot.
-- Identifying unusual bedroom count outliers.
+### 3. Understanding Dataset Features
 
-### 4. Bivariate Analysis
-- Relationship between house size and price using Scatter Plot.
-- Comparing house prices based on waterfront availability using Box Plot.
-- Analyzing the impact of house condition on price using Bar Plot.
+- Price
+- Bedrooms
+- Bathrooms
+- Square Foot Living Area
+- Floors
+- Waterfront
+- Year Built
+- House Condition
 
-### 5. Correlation Analysis
-- Understanding relationships between numerical features.
-- Generating a correlation matrix.
-- Visualizing feature relationships using a Correlation Heatmap.
-- Interpreting positive and negative correlations.
+### 4. Univariate Analysis
 
-### 6. Data Analysis and Insights
-- Identifying influential features affecting house prices.
-- Detecting outliers for future preprocessing.
-- Understanding feature relationships before model training.
-- Preparing the cleaned dataset for the next stage of Machine Learning.
+- Distribution of House Prices using Histogram.
+- Understanding data distribution using Kernel Density Estimation (KDE).
+- Bedroom frequency analysis using Count Plot.
+- Detecting unusual bedroom counts.
+- Identifying houses with extremely high bedroom values as potential outliers.
 
 ---
 
@@ -60,17 +55,14 @@ The objective of today's session was to understand the fundamentals of Explorato
 
 During the practical session, I performed the following activities:
 
-- Loaded and explored the House Price dataset using Pandas.
-- Inspected dataset structure, column information, and data types.
-- Verified the dataset for missing values.
-- Created a Histogram with KDE to analyze the distribution of house prices.
-- Generated a Count Plot to study bedroom distribution and identify unusual records.
-- Detected houses with exceptionally high bedroom counts as potential outliers.
-- Created a Scatter Plot to analyze the relationship between living area and house price.
-- Compared house prices based on waterfront availability using a Box Plot.
-- Visualized the relationship between house condition and average price using a Bar Plot.
-- Generated and interpreted a Correlation Heatmap for numerical features.
-- Identified important insights from the dataset and saved the filtered dataset for further Machine Learning preprocessing.
+- Loaded the House Price dataset using Pandas.
+- Explored dataset structure using `head()` and `info()`.
+- Verified data types and inspected feature information.
+- Checked missing values using `isnull().sum()`.
+- Generated a Histogram with KDE to analyze house price distribution.
+- Created a Count Plot to visualize bedroom frequencies.
+- Identified houses having unusually large numbers of bedrooms.
+- Examined potential outliers for future preprocessing.
 
 ---
 
@@ -78,16 +70,16 @@ During the practical session, I performed the following activities:
 
 By the end of today's session, I was able to:
 
-- Understand the significance of Exploratory Data Analysis in Machine Learning.
-- Load, inspect, and explore real-world datasets using Pandas.
-- Perform univariate and bivariate analysis using different visualization techniques.
-- Detect outliers and understand their impact on data analysis.
-- Interpret relationships between features using correlation analysis.
-- Draw meaningful insights from visualizations before building Machine Learning models.
-- Prepare datasets for the next stage of preprocessing and model development.
+- Understand the purpose of Exploratory Data Analysis.
+- Load and inspect real-world datasets.
+- Interpret dataset structure and feature information.
+- Identify missing values before preprocessing.
+- Perform univariate analysis using graphical visualization.
+- Detect potential outliers through data exploration.
+- Build a strong foundation for further Machine Learning preprocessing.
 
 ---
 
 ## Conclusion
 
-Today's session provided practical exposure to Exploratory Data Analysis (EDA) using a real-world House Price dataset. By combining Pandas, Matplotlib, and Seaborn, I explored data distributions, identified outliers, analyzed relationships between features, and interpreted correlation patterns. These techniques are essential for understanding datasets and improving the quality of Machine Learning models through effective data analysis and preprocessing.
+Today's session introduced the fundamentals of Exploratory Data Analysis by exploring a real-world House Price dataset. Through dataset inspection and univariate analysis, I learned how to understand data distributions, identify missing values, and detect potential outliers before applying Machine Learning techniques. These activities form an essential first step in every data analysis workflow.

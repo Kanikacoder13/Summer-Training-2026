@@ -1,4 +1,4 @@
-# Day 15 - Summer Training Report
+# Day 17 - Summer Training Report
 
 # Logistic Regression for Classification
 

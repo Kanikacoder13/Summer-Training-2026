@@ -1,6 +1,6 @@
 # Day 16 - Summer Training Report
 
-# Logistic Regression for Classification
+# Lasso Regression and Model Comparison
 
 **Training Domain:** Artificial Intelligence & Machine Learning (AI & ML) using Python
 
@@ -8,76 +8,43 @@
 
 ## Objective
 
-The objective of today's session was to understand Logistic Regression as a supervised Machine Learning algorithm for classification problems. The session focused on building Binary and Multiclass Classification models, evaluating model performance using different metrics, interpreting confusion matrices and classification reports, and comparing different classification approaches using the Titanic dataset.
+The objective of today's session was to understand Lasso Regression and its role in feature selection using L1 Regularization. The session also focused on comparing Ridge Regression and Lasso Regression, evaluating their performance, and understanding how different regularization techniques improve Machine Learning models.
 
 ---
 
 ## Topics Covered
 
-### 1. Introduction to Logistic Regression
+### 1. Lasso Regression
 
-- Understanding Logistic Regression as a supervised Machine Learning algorithm.
-- Difference between Regression and Classification problems.
-- Binary Classification and Multiclass Classification.
-- Applications of Logistic Regression in Machine Learning.
+- Introduction to Lasso Regression.
+- Understanding L1 Regularization.
+- Effect of the regularization parameter (Alpha).
+- Automatic feature selection using Lasso Regression.
+- Eliminating less important features by reducing their coefficients to zero.
+- Advantages and practical applications of Lasso Regression.
 
-### 2. Binary Classification
+### 2. Building the Lasso Regression Model
 
-- Predicting passenger survival using the Titanic dataset.
-- Selecting input features and target variable.
-- Splitting the dataset into training and testing sets.
-- Training the Logistic Regression model.
-- Generating predictions for unseen data.
+- Creating a Lasso Regression model using Scikit-learn.
+- Training the model using the House Price dataset.
+- Generating predictions for the testing dataset.
+- Understanding how Lasso simplifies regression models.
 
 ### 3. Model Evaluation
 
-- Calculating model accuracy.
-- Understanding the Confusion Matrix.
-- Interpreting:
-  - True Positive (TP)
-  - True Negative (TN)
-  - False Positive (FP)
-  - False Negative (FN)
-- Understanding the Classification Report.
-- Evaluation metrics:
-  - Precision
-  - Recall
-  - F1-Score
-  - Accuracy
+- Evaluating Lasso Regression using:
+  - Mean Absolute Error (MAE)
+  - R² Score (Coefficient of Determination)
+- Interpreting prediction accuracy.
+- Analyzing the impact of feature selection on model performance.
 
-### 4. Multiclass Classification
+### 4. Comparison of Ridge and Lasso Regression
 
-- Predicting Passenger Class (`Pclass`) using Logistic Regression.
-- Understanding multiclass classification problems.
-- Introduction to:
-  - One-vs-Rest (OvR)
-  - Multinomial (Softmax) Classification
-- Training and testing a multiclass Logistic Regression model.
-
-### 5. Multiclass Model Evaluation
-
-- Evaluating multiclass predictions.
-- Generating a multiclass Confusion Matrix.
-- Interpreting the Classification Report for multiple classes.
-- Comparing prediction performance across different passenger classes.
-
-### 6. Model Comparison
-
-- Comparing Binary Classification and Multiclass Classification.
-- Understanding:
-  - Number of classes
-  - Prediction methods
-  - Output interpretation
-  - Confusion Matrix differences
-  - Sigmoid vs Softmax functions
-
-### 7. Practice Exercises
-
-- Improving Binary Classification by adding the **Pclass** feature.
-- Comparing prediction accuracy before and after feature addition.
-- Understanding the effect of feature selection on model performance.
-- Experimenting with different probability thresholds using `predict_proba()`.
-- Observing the effect of threshold changes on classification results and confusion matrices.
+- Difference between L1 and L2 Regularization.
+- Comparing Ridge Regression and Lasso Regression.
+- Understanding coefficient shrinkage.
+- Feature selection in Lasso Regression.
+- Choosing the appropriate regularization technique based on the dataset and problem requirements.
 
 ---
 
@@ -85,18 +52,14 @@ The objective of today's session was to understand Logistic Regression as a supe
 
 During the practical session, I performed the following activities:
 
-- Loaded and explored the Titanic dataset.
-- Selected appropriate input features and target variables.
+- Loaded the preprocessed House Price dataset.
+- Selected input features and target values.
 - Split the dataset into training and testing sets.
-- Built and trained a Binary Logistic Regression model.
-- Generated survival predictions for the testing dataset.
-- Evaluated model performance using Accuracy, Confusion Matrix, and Classification Report.
-- Built and trained a Multiclass Logistic Regression model for passenger class prediction.
-- Generated predictions for multiclass classification.
-- Compared Binary and Multiclass Logistic Regression models.
-- Added an additional feature (`Pclass`) to improve binary classification performance.
-- Experimented with custom probability thresholds using `predict_proba()`.
-- Analyzed how changing the decision threshold affected prediction results.
+- Built and trained a Lasso Regression model using Scikit-learn.
+- Generated predictions for the testing dataset.
+- Evaluated the model using MAE and R² Score.
+- Compared Ridge Regression and Lasso Regression based on their coefficients and prediction performance.
+- Analyzed how Lasso Regression automatically removes less significant features from the model.
 
 ---
 
@@ -104,17 +67,15 @@ During the practical session, I performed the following activities:
 
 By the end of today's session, I was able to:
 
-- Understand the working principle of Logistic Regression.
-- Differentiate between Binary and Multiclass Classification.
-- Train Logistic Regression models using Scikit-learn.
-- Evaluate classification models using Accuracy, Precision, Recall, F1-Score, and Confusion Matrix.
-- Understand the concepts of One-vs-Rest and Multinomial Classification.
-- Analyze the impact of feature selection on model performance.
-- Understand how decision thresholds influence classification outcomes.
-- Compare different classification approaches for Machine Learning applications.
+- Understand the concept of L1 Regularization.
+- Explain the working principle of Lasso Regression.
+- Perform feature selection using Lasso Regression.
+- Train and evaluate Lasso Regression models.
+- Compare Ridge Regression and Lasso Regression.
+- Understand the advantages and suitable applications of different regularization techniques.
 
 ---
 
 ## Conclusion
 
-Today's session provided practical knowledge of Logistic Regression for both Binary and Multiclass Classification using the Titanic dataset. Through model training, evaluation, comparison, and hands-on exercises, I learned how to develop classification models, interpret evaluation metrics, improve prediction performance through feature selection, and analyze the effect of decision thresholds. These concepts form an essential foundation for solving real-world classification problems in Machine Learning.
+Today's session focused on Lasso Regression and its ability to improve Machine Learning models through feature selection and regularization. By comparing Ridge Regression and Lasso Regression, I gained a better understanding of selecting appropriate regularization techniques based on dataset characteristics and model requirements. This session strengthened my knowledge of building efficient and well-generalized regression models.

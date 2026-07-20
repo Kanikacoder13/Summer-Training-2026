@@ -20,6 +20,7 @@ The objective of today's session was to understand the fundamentals of Explorato
 - Understanding data before model building.
 - Steps involved in exploratory data analysis.
 - Identifying patterns, trends, and anomalies in datasets.
+- Exploratory Data Analysis (EDA) using Pandas, Matplotlib, and Seaborn
 
 ### 2. Loading and Inspecting the Dataset
 

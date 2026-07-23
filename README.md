@@ -21,35 +21,35 @@ The purpose of maintaining this repository is to document my learning progress t
 | Day | Report |
 |-----|--------|
 | Day 01 | [View Report](Daily-Reports/Day-01.md) |
-| Day 02 | [View Report](Day-02.md) |
-| Day 03 | [View Report](Day-03.md) |
-| Day 04 | [View Report](Day-04.md) |
-| Day 05 | [View Report](Day-05.md) |
-| Day 06 | [View Report](Day-06.md) |
-| Day 07 | [View Report](Day-07.md) |
-| Day 08 | [View Report](Day-08.md) |
-| Day 09 | [View Report](Day-09.md) |
-| Day 10 | [View Report](Day-10.md) |
-| Day 11 | [View Report](Day-11.md) |
-| Day 12 | [View Report](Day-12.md) |
-| Day 13 | [View Report](Day-13.md) |
-| Day 14 | [View Report](Day-14.md) |
-| Day 15 | [View Report](Day-15.md) |
-| Day 16 | [View Report](Day-16.md) |
-| Day 17 | [View Report](Day-17.md) |
-| Day 18 | [View Report](Day-18.md) |
-| Day 19 | [View Report](Day-19.md) |
-| Day 20 | [View Report](Day-20.md) |
-| Day 21 | [View Report](Day-21.md) |
-| Day 22 | [View Report](Day-22.md) |
-| Day 23 | [View Report](Day-23.md) |
-| Day 24 | [View Report](Day-24.md) |
-| Day 25 | [View Report](Day-25.md) |
-| Day 26 | [View Report](Day-26.md) |
-| Day 27 | [View Report](Day-27.md) |
-| Day 28 | [View Report](Day-28.md) |
-| Day 29 | [View Report](Day-29.md) |
-| Day 30 | [View Report](Day-30.md) |
+| Day 02 | [View Report](Daily-Reports/Day-02.md) |
+| Day 03 | [View Report](Daily-Reports/Day-03.md) |
+| Day 04 | [View Report](Daily-Reports/Day-04.md) |
+| Day 05 | [View Report](Daily-Reports/Day-05.md) |
+| Day 06 | [View Report](Daily-Reports/Day-06.md) |
+| Day 07 | [View Report](Daily-Reports/Day-07.md) |
+| Day 08 | [View Report](Daily-Reports/Day-08.md) |
+| Day 09 | [View Report](Daily-Reports/Day-09.md) |
+| Day 10 | [View Report](Daily-Reports/Day-10.md) |
+| Day 11 | [View Report](Daily-Reports/Day-11.md) |
+| Day 12 | [View Report](Daily-Reports/Day-12.md) |
+| Day 13 | [View Report](Daily-Reports/Day-13.md) |
+| Day 14 | [View Report](Daily-Reports/Day-14.md) |
+| Day 15 | [View Report](Daily-Reports/Day-15.md) |
+| Day 16 | [View Report](Daily-Reports/Day-16.md) |
+| Day 17 | [View Report](Daily-Reports/Day-17.md) |
+| Day 18 | [View Report](Daily-Reports/Day-18.md) |
+| Day 19 | [View Report](Daily-Reports/Day-19.md) |
+| Day 20 | [View Report](Daily-Reports/Day-20.md) |
+| Day 21 | [View Report](Daily-Reports/Day-21.md) |
+| Day 22 | [View Report](Daily-Reports/Day-22.md) |
+| Day 23 | [View Report](Daily-Reports/Day-23.md) |
+| Day 24 | [View Report](Daily-Reports/Day-24.md) |
+| Day 25 | [View Report](Daily-Reports/Day-25.md) |
+| Day 26 | [View Report](Daily-Reports/Day-26.md) |
+| Day 27 | [View Report](Daily-Reports/Day-27.md) |
+| Day 28 | [View Report](Daily-Reports/Day-28.md) |
+| Day 29 | [View Report](Daily-Reports/Day-29.md) |
+| Day 30 | [View Report](Daily-Reports/Day-30.md) |
 
 ---
 

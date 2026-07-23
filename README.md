@@ -20,7 +20,7 @@ The purpose of maintaining this repository is to document my learning progress t
 
 | Day | Report |
 |-----|--------|
-| Day 01 | [View Report](Day-01.md) |
+| Day 01 | [View Report](Daily-Reports/Day-01.md) |
 | Day 02 | [View Report](Day-02.md) |
 | Day 03 | [View Report](Day-03.md) |
 | Day 04 | [View Report](Day-04.md) |

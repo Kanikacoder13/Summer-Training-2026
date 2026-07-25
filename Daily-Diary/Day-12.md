@@ -1,85 +1,89 @@
-# Day 12 - Summer Training Report
+# Day 12 - Summer Training Daily Diary
 
-# Data Preprocessing: Feature Scaling, Encoding, and Final Dataset Preparation
-
-**Training Domain:** Artificial Intelligence & Machine Learning (AI & ML) using Python
+## Training Domain
+**Artificial Intelligence & Machine Learning (AI & ML) using Python**
 
 ---
 
 ## Objective
 
-The objective of today's session was to complete the data preprocessing workflow by applying feature scaling, encoding categorical variables, and preparing the final dataset for Machine Learning model training.
+Today's training focused on completing the data preprocessing stage by applying feature scaling techniques, encoding categorical data, and preparing the final dataset for machine learning model training.
+
+---
+
+## Tasks Assigned by the Industry Expert
+
+During today's training session, the following tasks were assigned:
+
+1. Understand the importance of feature scaling in Machine Learning.
+2. Apply Min-Max Scaling and Standard Scaling to numerical features.
+3. Compare different feature scaling techniques.
+4. Convert categorical data into numerical form using One-Hot Encoding.
+5. Prepare the final dataset for model training.
+6. Save the processed dataset for future use.
+
+---
+
+## Practical Work Completed
+
+During the practical session, I worked on the following activities:
+
+- Applied Min-Max Scaling to normalize numerical features.
+- Used Standard Scaling to standardize feature values.
+- Compared the results of both scaling techniques.
+- Created sample categorical columns for practice.
+- Converted categorical values into numerical form using One-Hot Encoding with `pd.get_dummies()`.
+- Verified the newly generated encoded columns.
+- Selected the required input features for machine learning.
+- Prepared the final preprocessed dataset.
+- Saved the processed dataset for use in the next stage of model development.
 
 ---
 
 ## Topics Covered
 
-### 1. Feature Scaling
-
+### Feature Scaling
 - Importance of feature scaling in Machine Learning.
-- Understanding the effect of different feature ranges on model performance.
-- Introduction to:
-  - Min-Max Scaling
-  - Standard Scaling
-- Comparison between normalization and standardization.
+- Effect of different feature ranges on model performance.
+- Introduction to Min-Max Scaling and Standard Scaling.
+- Difference between normalization and standardization.
 
-### 2. Min-Max Scaling
-
+### Min-Max Scaling
 - Scaling numerical features to a fixed range.
 - Using `MinMaxScaler` from Scikit-learn.
-- Transforming numerical features for consistent model input.
+- Preparing consistent input values for machine learning models.
 
-### 3. Standard Scaling
-
+### Standard Scaling
 - Standardizing features using mean and standard deviation.
 - Using `StandardScaler` from Scikit-learn.
 - Understanding standardized feature values.
 
-### 4. One-Hot Encoding
-
+### One-Hot Encoding
 - Introduction to categorical data encoding.
 - Converting categorical variables into numerical format.
 - Creating dummy variables using `pd.get_dummies()`.
-- Understanding encoded feature representation.
 
-### 5. Final Dataset Preparation
-
-- Selecting important input features for Machine Learning.
-- Combining processed numerical and categorical features.
-- Creating the final preprocessed dataset.
-- Saving the cleaned dataset for future model training.
+### Final Dataset Preparation
+- Selecting important input features.
+- Combining processed numerical and categorical data.
+- Preparing the final dataset for model training.
+- Saving the cleaned dataset for future use.
 
 ---
 
-## Practical Activities Performed
+## Learning Outcomes
 
-During the practical session, I performed the following activities:
+By the end of today's training, I was able to:
 
-- Applied Min-Max Scaling to normalize numerical features.
-- Applied Standard Scaling to standardize feature values.
-- Compared the output of both scaling techniques.
-- Created categorical columns for practice.
-- Converted categorical values into numerical features using One-Hot Encoding.
-- Verified the generated encoded columns.
-- Selected the final set of input features required for Machine Learning.
-- Generated the final preprocessed dataset.
-- Saved the processed dataset for use in model training.
-
----
-
-## Key Learning Outcomes
-
-By the end of today's session, I was able to:
-
-- Understand the importance of feature scaling in Machine Learning.
+- Understand the purpose of feature scaling in Machine Learning.
 - Differentiate between Min-Max Scaling and Standard Scaling.
 - Apply scaling techniques using Scikit-learn.
-- Convert categorical variables into numerical format using One-Hot Encoding.
-- Prepare a structured dataset suitable for Machine Learning algorithms.
-- Complete the end-to-end preprocessing workflow before model development.
+- Convert categorical data into numerical format using One-Hot Encoding.
+- Prepare a clean and structured dataset for machine learning models.
+- Complete the data preprocessing workflow before model training.
 
 ---
 
 ## Conclusion
 
-Today's session completed the data preprocessing pipeline by applying feature scaling, encoding categorical variables, and preparing the final dataset for Machine Learning. These preprocessing techniques ensure that data is clean, consistent, and ready for effective model training, forming an essential step in developing accurate and reliable Machine Learning models.
+Today's session completed the data preprocessing phase of the machine learning workflow. By applying feature scaling and encoding techniques, I learned how to prepare a clean and consistent dataset for model training. The practical exercises gave me a better understanding of the preprocessing steps required before developing machine learning models.

@@ -1,26 +1,58 @@
-# Day 08 - Summer Training Report
+# Day 08 - Summer Training Daily Diary
 
-# Data Visualization using Matplotlib and Seaborn
-
-**Training Domain:** Artificial Intelligence & Machine Learning (AI & ML) using Python
+## Training Domain
+**Artificial Intelligence & Machine Learning (AI & ML) using Python**
 
 ---
 
 ## Objective
 
-The objective of today's session was to understand the fundamentals of data visualization using Matplotlib and Seaborn. The session focused on creating different types of charts, customizing visualizations, identifying trends and outliers, and analyzing real-world datasets using graphical techniques for AI & Machine Learning.
+Today's training focused on learning the basics of data visualization using Matplotlib and Seaborn. The session covered different types of charts, their customization, and how visualizations can be used to analyze datasets and identify patterns, trends, and outliers.
+
+---
+
+## Tasks Assigned by the Industry Expert
+
+During today's training session, the following tasks were assigned:
+
+1. Understand the importance of data visualization.
+2. Create different types of charts using Matplotlib.
+3. Customize graphs using labels, titles, legends, and gridlines.
+4. Generate statistical visualizations using Seaborn.
+5. Analyze the Titanic dataset using different visualization techniques.
+6. Identify trends, distributions, and outliers through graphical analysis.
+7. Practice data visualization using real-world examples.
+
+---
+
+## Practical Work Completed
+
+During the practical session, I worked on the following activities:
+
+- Created a Line Plot to visualize sunflower plant growth over different weeks.
+- Developed a Bar Chart to compare candy brand counts.
+- Implemented a Box Plot to identify outliers in toy car speed data.
+- Loaded the Titanic dataset using Pandas.
+- Inspected the dataset using `head()` and checked missing values using `isnull().sum()`.
+- Created a Histogram with KDE to study the distribution of passenger ages.
+- Developed a Count Plot to compare passenger survival statistics.
+- Generated a Box Plot to identify outliers in ticket fare values.
+- Filled missing values in the Age column using the median.
+- Created a Scatter Plot to analyze the relationship between passenger age and ticket fare based on survival status.
+- Calculated the correlation matrix for numerical features.
+- Visualized the correlation matrix using a Heatmap.
 
 ---
 
 ## Topics Covered
 
-### 1. Introduction to Data Visualization
-- Importance of data visualization in AI & Machine Learning.
+### Introduction to Data Visualization
+- Importance of data visualization.
 - Role of graphical representation in data analysis.
-- Introduction to Matplotlib and Seaborn libraries.
-- Choosing appropriate charts based on different types of data.
+- Introduction to Matplotlib and Seaborn.
+- Choosing suitable charts for different types of data.
 
-### 2. Matplotlib Fundamentals
+### Matplotlib Fundamentals
 - Creating figures using `plt.figure()`.
 - Plot customization using:
   - `title()`
@@ -30,16 +62,16 @@ The objective of today's session was to understand the fundamentals of data visu
   - `grid()`
 - Customizing colors, markers, line styles, and figure size.
 
-### 3. Types of Data Visualization
+### Types of Data Visualization
 - Line Plot
 - Bar Plot
 - Scatter Plot
 - Histogram
 - Box Plot
 - Heatmap
-- Understanding the purpose and applications of each chart.
+- Applications of different chart types.
 
-### 4. Seaborn Visualization
+### Seaborn Visualization
 - Creating statistical visualizations using Seaborn.
 - Histogram with KDE.
 - Count Plot.
@@ -47,52 +79,31 @@ The objective of today's session was to understand the fundamentals of data visu
 - Scatter Plot with `hue`.
 - Correlation Heatmap.
 
-### 5. Data Analysis using Titanic Dataset
-- Loading the Titanic dataset using Pandas.
-- Inspecting dataset using `head()` and `isnull().sum()`.
+### Titanic Dataset Analysis
+- Loading and inspecting the dataset.
 - Visualizing passenger age distribution.
-- Analyzing passenger survival counts.
+- Comparing survival counts.
 - Detecting ticket fare outliers.
 - Studying the relationship between Age and Fare.
-- Handling missing values using median.
-- Correlation analysis between numerical features using Heatmap.
+- Handling missing values using the median.
+- Correlation analysis of numerical features.
 
 ---
 
-## Practical Activities Performed
+## Learning Outcomes
 
-During the practical session, I performed the following activities:
+By the end of today's training, I was able to:
 
-- Created a Line Plot to visualize sunflower plant growth over different weeks.
-- Developed a Bar Chart to compare candy brand counts.
-- Implemented a Box Plot to identify outliers in toy car speed data.
-- Loaded the Titanic dataset using Pandas.
-- Inspected dataset structure and missing values.
-- Created a Histogram with KDE to analyze passenger age distribution.
-- Developed a Count Plot to compare passenger survival statistics.
-- Generated a Box Plot to detect outliers in ticket fare values.
-- Filled missing values in the Age column using the median.
-- Created a Scatter Plot to analyze the relationship between passenger age and ticket fare based on survival status.
-- Calculated the correlation matrix for selected numerical features.
-- Visualized feature relationships using a Correlation Heatmap.
-
----
-
-## Key Learning Outcomes
-
-By the end of today's session, I was able to:
-
-- Understand the importance of data visualization in AI & ML.
-- Create and customize different types of plots using Matplotlib.
+- Understand the importance of data visualization in data analysis.
+- Create and customize different types of charts using Matplotlib.
 - Generate statistical visualizations using Seaborn.
-- Select appropriate charts based on the nature of the data.
+- Choose appropriate charts based on the type of data.
 - Identify trends, distributions, and outliers through visual analysis.
-- Handle missing values before visualization.
-- Perform exploratory data analysis using the Titanic dataset.
-- Interpret relationships between multiple variables using correlation heatmaps.
+- Handle missing values before creating visualizations.
+- Perform basic exploratory data analysis using the Titanic dataset.
 
 ---
 
 ## Conclusion
 
-Today's session provided practical exposure to data visualization techniques using Matplotlib and Seaborn. Through various visualization exercises and analysis of the Titanic dataset, I learned how to represent data graphically, identify trends and outliers, explore relationships between variables, and draw meaningful insights. These visualization techniques are essential for exploratory data analysis and play a significant role in Artificial Intelligence and Machine Learning workflows.
+Today's session gave me practical experience in presenting data through different types of visualizations. By working with Matplotlib, Seaborn, and the Titanic dataset, I learned how graphs can make data easier to understand and help identify important patterns and relationships. These visualization techniques will be useful while analyzing datasets in future training sessions.

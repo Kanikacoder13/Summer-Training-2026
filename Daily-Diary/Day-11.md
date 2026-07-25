@@ -1,93 +1,89 @@
-# Day 11 - Summer Training Report
+# Day 11 - Summer Training Daily Diary
 
-# Data Preprocessing: Missing Value Handling and Outlier Treatment
-
-**Training Domain:** Artificial Intelligence & Machine Learning (AI & ML) using Python
+## Training Domain
+**Artificial Intelligence & Machine Learning (AI & ML) using Python**
 
 ---
 
 ## Objective
 
-The objective of today's session was to understand the initial stages of data preprocessing in Machine Learning. The session focused on preparing raw data by handling missing values, detecting outliers, and applying appropriate preprocessing techniques to improve data quality before model training.
+Today's training focused on the initial stage of data preprocessing in Machine Learning. The session covered handling missing values, detecting outliers, and applying preprocessing techniques to improve the quality of the dataset before model training.
+
+---
+
+## Tasks Assigned by the Industry Expert
+
+During today's training session, the following tasks were assigned:
+
+1. Understand the importance of data preprocessing in Machine Learning.
+2. Inspect the House Price dataset and identify missing values.
+3. Apply suitable techniques to handle missing data.
+4. Detect outliers using statistical methods and visualizations.
+5. Treat outliers using the IQR method.
+6. Compare the dataset before and after preprocessing.
+
+---
+
+## Practical Work Completed
+
+During the practical session, I worked on the following activities:
+
+- Loaded the filtered House Price dataset using Pandas.
+- Inspected the dataset using `head()` and checked missing values using `isnull().sum()`.
+- Practiced handling missing values using the Median Imputation technique.
+- Generated Box Plots to identify outliers in numerical features.
+- Calculated the First Quartile (Q1), Third Quartile (Q3), and Interquartile Range (IQR).
+- Applied IQR-based outlier capping using the `clip()` function.
+- Compared the distribution of house prices before and after outlier treatment using Histograms.
+- Verified the dataset after completing the preprocessing steps.
 
 ---
 
 ## Topics Covered
 
-### 1. Introduction to Data Preprocessing
-
+### Introduction to Data Preprocessing
 - Importance of data preprocessing in Machine Learning.
 - Understanding the concept of "Garbage In, Garbage Out (GIGO)".
-- Need for clean and structured datasets before training ML models.
-- Loading the filtered House Price dataset.
+- Need for clean and structured datasets before model training.
 
-### 2. Dataset Inspection
-
-- Reading datasets using Pandas.
-- Viewing dataset records using `head()`.
+### Dataset Inspection
+- Loading datasets using Pandas.
+- Viewing records using `head()`.
 - Checking dataset structure.
 - Identifying missing values using `isnull().sum()`.
 
-### 3. Handling Missing Values (Imputation)
-
+### Handling Missing Values
 - Introduction to Missing Value Imputation.
-- Importance of handling incomplete datasets.
-- Creating sample missing values for practice.
 - Median Imputation technique.
 - Replacing missing values using the median.
-- Understanding why the median is preferred over the mean for skewed data.
+- Importance of choosing the appropriate imputation method.
 
-### 4. Outlier Detection
-
-- Understanding outliers and their impact on Machine Learning models.
+### Outlier Detection
+- Understanding outliers and their effect on Machine Learning models.
 - Detecting outliers using Box Plots.
 - Introduction to the Interquartile Range (IQR) method.
-- Calculating:
-  - First Quartile (Q1)
-  - Third Quartile (Q3)
-  - Interquartile Range (IQR)
+- Calculating Q1, Q3, and IQR.
 
-### 5. Outlier Treatment
-
+### Outlier Treatment
 - Determining lower and upper limits using IQR.
 - Applying outlier capping using the `clip()` function.
-- Capping extreme values in:
-  - Price
-  - Living Area (`sqft_living`)
-  - Bedrooms
-- Comparing data before and after outlier treatment.
+- Comparing data before and after preprocessing.
 
 ---
 
-## Practical Activities Performed
+## Learning Outcomes
 
-During the practical session, I performed the following activities:
+By the end of today's training, I was able to:
 
-- Loaded the filtered House Price dataset using Pandas.
-- Inspected dataset records and verified missing values.
-- Practiced Missing Value Imputation using the median.
-- Generated Box Plots to visualize outliers.
-- Calculated Q1, Q3, and IQR for selected numerical features.
-- Applied IQR-based outlier capping using the `clip()` function.
-- Compared the distribution of house prices before and after preprocessing using Histograms.
-- Verified the updated dataset after treating outliers.
-
----
-
-## Key Learning Outcomes
-
-By the end of today's session, I was able to:
-
-- Understand the importance of data preprocessing.
-- Detect missing values in datasets.
-- Apply Median Imputation for handling missing data.
-- Understand the concept of outliers.
+- Understand the importance of data preprocessing before model development.
+- Identify missing values in a dataset.
+- Apply Median Imputation to handle incomplete data.
 - Detect outliers using Box Plots and the IQR method.
-- Apply outlier capping without removing records.
-- Improve dataset quality before Machine Learning model development.
+- Treat outliers without removing records from the dataset.
+- Improve dataset quality for further Machine Learning tasks.
 
 ---
 
 ## Conclusion
 
-Today's session focused on the initial phase of data preprocessing by handling missing values and treating outliers in the House Price dataset. Through practical implementation of Median Imputation and IQR-based outlier capping, I learned how to improve data quality and prepare datasets for the next stage of Machine Learning preprocessing.
+Today's session helped me understand the importance of preparing data before building a machine learning model. By handling missing values and treating outliers in the House Price dataset, I learned how proper preprocessing improves data quality and makes the dataset more suitable for further analysis and model development.

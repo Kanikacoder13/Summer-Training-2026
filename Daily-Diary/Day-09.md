@@ -1,38 +1,61 @@
-# Day 09 - Summer Training Report
+# Day 09 - Summer Training Daily Diary
 
-# Exploratory Data Analysis (EDA): Dataset Exploration and Univariate Analysis
-
-**Training Domain:** Artificial Intelligence & Machine Learning (AI & ML) using Python
+## Training Domain
+**Artificial Intelligence & Machine Learning (AI & ML) using Python**
 
 ---
 
 ## Objective
 
-The objective of today's session was to understand the fundamentals of Exploratory Data Analysis (EDA) and learn how to inspect, understand, and summarize a real-world dataset before applying Machine Learning algorithms. The session focused on dataset exploration, identifying missing values, understanding feature distributions, and performing univariate analysis using visualization techniques.
+Today's training focused on understanding the basics of Exploratory Data Analysis (EDA). The session covered how to examine a dataset before building a machine learning model by exploring its structure, identifying missing values, understanding feature distributions, and performing univariate analysis.
+
+---
+
+## Tasks Assigned by the Industry Expert
+
+During today's training session, the following tasks were assigned:
+
+1. Understand the purpose and importance of Exploratory Data Analysis (EDA).
+2. Load and inspect a real-world dataset using Pandas.
+3. Examine dataset features and identify missing values.
+4. Perform univariate analysis using graphical visualizations.
+5. Detect unusual values and potential outliers.
+6. Interpret the observations obtained from the dataset.
+
+---
+
+## Practical Work Completed
+
+During the practical session, I worked on the following activities:
+
+- Loaded the House Price dataset using Pandas.
+- Explored the dataset using `head()` and `info()`.
+- Checked dataset dimensions, column names, and data types.
+- Identified missing values using `isnull().sum()`.
+- Created a Histogram with KDE to study the distribution of house prices.
+- Generated a Count Plot to analyze the frequency of bedroom values.
+- Identified houses with unusually high bedroom counts as potential outliers.
+- Observed the dataset to understand its characteristics before preprocessing.
 
 ---
 
 ## Topics Covered
 
-### 1. Introduction to Exploratory Data Analysis (EDA)
-
-- Importance of EDA in Machine Learning.
-- Understanding data before model building.
+### Introduction to Exploratory Data Analysis (EDA)
+- Importance of EDA before model building.
+- Understanding dataset characteristics.
 - Steps involved in exploratory data analysis.
-- Identifying patterns, trends, and anomalies in datasets.
-- Exploratory Data Analysis (EDA) using Pandas, Matplotlib, and Seaborn
+- Identifying patterns, trends, and anomalies.
+- Using Pandas, Matplotlib, and Seaborn for data exploration.
 
-### 2. Loading and Inspecting the Dataset
-
-- Loading the House Price dataset using Pandas.
-- Displaying initial records using `head()`.
+### Loading and Inspecting the Dataset
+- Loading the House Price dataset.
+- Viewing records using `head()`.
 - Understanding dataset dimensions.
 - Inspecting column names and data types.
-- Checking dataset information using `info()`.
-- Identifying missing values using `isnull().sum()`.
+- Using `info()` and `isnull().sum()` for dataset inspection.
 
-### 3. Understanding Dataset Features
-
+### Understanding Dataset Features
 - Price
 - Bedrooms
 - Bathrooms
@@ -42,45 +65,26 @@ The objective of today's session was to understand the fundamentals of Explorato
 - Year Built
 - House Condition
 
-### 4. Univariate Analysis
-
-- Distribution of House Prices using Histogram.
-- Understanding data distribution using Kernel Density Estimation (KDE).
-- Bedroom frequency analysis using Count Plot.
-- Detecting unusual bedroom counts.
-- Identifying houses with extremely high bedroom values as potential outliers.
+### Univariate Analysis
+- Histogram with KDE for House Price distribution.
+- Count Plot for bedroom frequency analysis.
+- Identifying unusual values and potential outliers.
 
 ---
 
-## Practical Activities Performed
+## Learning Outcomes
 
-During the practical session, I performed the following activities:
-
-- Loaded the House Price dataset using Pandas.
-- Explored dataset structure using `head()` and `info()`.
-- Verified data types and inspected feature information.
-- Checked missing values using `isnull().sum()`.
-- Generated a Histogram with KDE to analyze house price distribution.
-- Created a Count Plot to visualize bedroom frequencies.
-- Identified houses having unusually large numbers of bedrooms.
-- Examined potential outliers for future preprocessing.
-
----
-
-## Key Learning Outcomes
-
-By the end of today's session, I was able to:
+By the end of today's training, I was able to:
 
 - Understand the purpose of Exploratory Data Analysis.
-- Load and inspect real-world datasets.
-- Interpret dataset structure and feature information.
-- Identify missing values before preprocessing.
+- Load and inspect a real-world dataset.
+- Identify missing values and understand dataset structure.
 - Perform univariate analysis using graphical visualization.
 - Detect potential outliers through data exploration.
-- Build a strong foundation for further Machine Learning preprocessing.
+- Prepare a dataset for further preprocessing and analysis.
 
 ---
 
 ## Conclusion
 
-Today's session introduced the fundamentals of Exploratory Data Analysis by exploring a real-world House Price dataset. Through dataset inspection and univariate analysis, I learned how to understand data distributions, identify missing values, and detect potential outliers before applying Machine Learning techniques. These activities form an essential first step in every data analysis workflow.
+Today's session helped me understand why Exploratory Data Analysis is an important step before applying machine learning algorithms. By working with the House Price dataset, I learned how to inspect data, identify missing values, study feature distributions, and detect possible outliers. These activities provided a better understanding of the dataset before moving to the preprocessing stage.

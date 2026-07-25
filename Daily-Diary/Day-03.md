@@ -7,39 +7,39 @@
 
 ## Objective
 
-The objective of today's training was to understand Python functions and modular programming. The session focused on developing reusable code using functions, passing different types of arguments, returning values, managing variable scope, and implementing recursive functions for problem-solving.
+The main focus of today's training was to understand Python functions and how they help in writing modular and reusable programs. The session covered different types of functions, arguments, variable scope, recursion, and their practical use through programming exercises.
 
 ---
 
 ## Tasks Assigned by the Industry Expert
 
-The following tasks were assigned during today's training session:
+During today's training session, the following tasks were assigned:
 
 1. Explore Python built-in functions and their practical applications.
-2. Create and use user-defined functions for modular programming.
-3. Implement functions with different types of parameters and arguments.
-4. Practice the use of the `return` statement in functions.
-5. Understand the scope of local and global variables.
-6. Implement recursive functions to solve mathematical problems.
-7. Develop programs demonstrating the concepts learned during the session.
+2. Create and use user-defined functions.
+3. Practice different types of function parameters and arguments.
+4. Understand the use of the `return` statement.
+5. Learn the concept of local and global variables.
+6. Implement recursive functions for mathematical problems.
+7. Solve programming exercises based on the concepts covered.
 
 ---
 
-## Work Performed
+## Practical Work Completed
 
-During today's practical session, I completed the following activities:
+During the practical session, I worked on the following activities:
 
 - Practiced Python built-in functions such as `len()`, `sum()`, `max()`, `min()`, `abs()`, `round()`, and `print()` using lists and strings.
-- Applied built-in functions to calculate dataset size, maximum value, minimum value, total, average, absolute values, and rounded values.
+- Used built-in functions to calculate dataset size, maximum value, minimum value, total, average, absolute values, and rounded values.
 - Created user-defined functions for greeting users and performing arithmetic operations.
 - Developed a function to print the multiplication table of a given number.
 - Implemented an addition function using parameters.
-- Created functions that returned values using the `return` statement.
+- Practiced functions that return values using the `return` statement.
 - Solved a Prime Number checking problem using a user-defined function.
-- Practiced positional, keyword, default, variable-length (`*args`), and keyword variable-length (`**kwargs`) arguments.
-- Worked with dictionaries using the `items()` method.
-- Implemented programs demonstrating local and global variable scope using the `global` keyword.
-- Developed recursive programs to calculate the Factorial of a number and generate the Fibonacci Sequence.
+- Worked with positional, keyword, default, variable-length (`*args`), and keyword variable-length (`**kwargs`) arguments.
+- Used the `items()` method while working with dictionaries.
+- Practiced local and global variable scope using the `global` keyword.
+- Implemented recursive programs for calculating Factorial and generating the Fibonacci Sequence.
 
 ---
 
@@ -105,12 +105,12 @@ By the end of today's training, I was able to:
 - Create and use user-defined functions with different types of parameters and arguments.
 - Apply the `return` statement effectively in Python programs.
 - Differentiate between positional, keyword, default, and variable-length arguments.
-- Understand the scope of local and global variables and modify global variables when required.
+- Understand the scope of local and global variables.
 - Implement recursive solutions for problems such as Factorial and Fibonacci Sequence.
-- Apply Python built-in functions effectively in practical programming.
+- Use Python built-in functions effectively in different programming tasks.
 
 ---
 
 ## Conclusion
 
-Today's training focused on Python Functions and Modular Programming. I successfully completed all the tasks assigned by the industry expert, including implementing built-in and user-defined functions, practicing different types of arguments, managing variable scope, and developing recursive programs. These practical exercises strengthened my understanding of modular programming and provided a solid foundation for developing efficient and reusable Python programs for future AI & ML applications.
+Today's session helped me understand how functions make Python programs more organized, reusable, and easier to maintain. Through different programming exercises, I gained practical experience with user-defined functions, arguments, recursion, and variable scope. These concepts will be useful while developing larger Python programs and future AI & ML applications.

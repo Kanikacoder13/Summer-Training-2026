@@ -1,114 +1,101 @@
-# Day 13 - Summer Training Report
+# Day 13 - Summer Training Daily Diary
 
-# Linear Regression for House Price Prediction
-
-**Training Domain:** Artificial Intelligence & Machine Learning (AI & ML) using Python
+## Training Domain
+**Artificial Intelligence & Machine Learning (AI & ML) using Python**
 
 ---
 
 ## Objective
 
-The objective of today's session was to understand the fundamentals of Linear Regression and its application in predicting house prices. The session focused on dataset preparation, train-test splitting, building Simple and Multiple Linear Regression models, making predictions, visualizing results, and evaluating model performance using regression metrics.
+Today's training focused on understanding the fundamentals of Linear Regression and its application in predicting house prices. The session covered dataset preparation, train-test splitting, building regression models, making predictions, visualizing results, and evaluating model performance.
+
+---
+
+## Tasks Assigned by the Industry Expert
+
+During today's training session, the following tasks were assigned:
+
+1. Understand the concept of Linear Regression in Machine Learning.
+2. Prepare the dataset for model training.
+3. Split the dataset into training and testing sets.
+4. Build Simple and Multiple Linear Regression models.
+5. Predict house prices using trained models.
+6. Visualize regression results and compare model performance.
+7. Evaluate the models using suitable performance metrics.
+
+---
+
+## Practical Work Completed
+
+During the practical session, I worked on the following activities:
+
+- Loaded the preprocessed House Price dataset using Pandas.
+- Selected the required input features and target variable.
+- Split the dataset into training and testing sets using an 80:20 ratio.
+- Trained a Simple Linear Regression model using house size as the predictor.
+- Obtained the regression coefficient and intercept.
+- Generated predictions for the testing dataset.
+- Visualized the regression line along with the actual data using a Scatter Plot.
+- Built a Multiple Linear Regression model using multiple house features.
+- Compared the predictions of both regression models.
+- Predicted the price of a custom house using user-defined feature values.
+- Evaluated both models using Mean Absolute Error (MAE) and R² Score.
 
 ---
 
 ## Topics Covered
 
-### 1. Introduction to Linear Regression
-- Understanding Linear Regression as a supervised Machine Learning algorithm.
+### Introduction to Linear Regression
+- Linear Regression as a supervised Machine Learning algorithm.
 - Predicting continuous numerical values.
 - House Price Prediction as a regression problem.
-- Difference between Simple Linear Regression and Multiple Linear Regression.
+- Difference between Simple and Multiple Linear Regression.
 
-### 2. Dataset Preparation
-- Loading the preprocessed House Price dataset using Pandas.
+### Dataset Preparation
+- Loading the preprocessed dataset.
 - Selecting input features (X) and target variable (y).
 - Understanding independent and dependent variables.
 
-### 3. Train-Test Split
-- Splitting the dataset into Training and Testing sets.
+### Train-Test Split
+- Splitting the dataset into training and testing sets.
 - Using an 80:20 train-test ratio.
-- Importance of training on known data and testing on unseen data.
-- Implementing `train_test_split()` from Scikit-learn.
+- Importance of testing the model on unseen data.
+- Using `train_test_split()` from Scikit-learn.
 
-### 4. Simple Linear Regression
-- Building a Simple Linear Regression model using **Scaled_size** as the predictor.
-- Training the model using `LinearRegression()`.
-- Understanding:
-  - Coefficient (Slope)
-  - Intercept
-- Formulating the regression equation.
+### Simple Linear Regression
+- Building a regression model using house size as the predictor.
+- Understanding the coefficient and intercept.
 - Predicting house prices using the trained model.
 
-### 5. Regression Visualization
-- Plotting the best-fit regression line.
-- Comparing actual house prices with predicted values.
-- Visualizing prediction results using Scatter Plot and Regression Line.
+### Regression Visualization
+- Plotting the regression line.
+- Comparing actual and predicted values using a Scatter Plot.
 
-### 6. Multiple Linear Regression
+### Multiple Linear Regression
 - Training a model using multiple input features.
-- Using features such as:
-  - Bedrooms
-  - Bathrooms
-  - Scaled House Size
-  - Floors
-  - Waterfront
-  - Living Area
-  - House Condition
-  - Location Categories
 - Comparing Simple and Multiple Linear Regression models.
 
-### 7. Custom House Price Prediction
-- Creating a custom house record.
-- Predicting the price of a new house using the trained Multiple Linear Regression model.
-- Understanding how feature values influence predictions.
-
-### 8. Model Evaluation
-- Evaluating regression models using:
-  - Mean Absolute Error (MAE)
-  - R² Score (Coefficient of Determination)
-- Comparing the performance of Simple and Multiple Linear Regression models.
-- Understanding the impact of additional features on prediction accuracy.
+### Model Evaluation
+- Evaluating model performance using MAE and R² Score.
+- Comparing prediction accuracy of both regression models.
 
 ---
 
-## Practical Activities Performed
+## Learning Outcomes
 
-During the practical session, I performed the following activities:
+By the end of today's training, I was able to:
 
-- Installed and imported the required Scikit-learn libraries.
-- Loaded the preprocessed House Price dataset.
-- Selected input features and target values for model training.
-- Split the dataset into training and testing sets using an 80:20 ratio.
-- Trained a Simple Linear Regression model using house size as the predictor.
-- Retrieved the regression coefficient and intercept.
-- Generated predictions for the testing dataset.
-- Visualized the regression line with actual house price data.
-- Built a Multiple Linear Regression model using all available features.
-- Compared predictions from both regression models.
-- Predicted the price of a custom house using user-defined feature values.
-- Evaluated both models using MAE and R² Score.
-- Compared the accuracy of Simple and Multiple Linear Regression models.
-
----
-
-## Key Learning Outcomes
-
-By the end of today's session, I was able to:
-
-- Understand the working principle of Linear Regression.
+- Understand the basic working of Linear Regression.
 - Differentiate between Simple and Multiple Linear Regression.
-- Prepare datasets for supervised Machine Learning.
+- Prepare datasets for supervised machine learning.
 - Perform train-test splitting using Scikit-learn.
-- Train Linear Regression models for numerical prediction.
-- Interpret regression coefficients and intercept values.
-- Visualize regression results using graphs.
-- Predict outcomes for new data using trained models.
+- Train regression models for numerical prediction.
+- Interpret regression coefficients and model predictions.
 - Evaluate regression models using MAE and R² Score.
-- Analyze how additional features improve prediction performance.
+- Compare the performance of different regression models.
 
 ---
 
 ## Conclusion
 
-Today's session introduced Linear Regression as one of the fundamental supervised Machine Learning algorithms used for predicting continuous values. Through practical implementation on a real-world House Price dataset, I learned how to prepare data, train regression models, generate predictions, visualize results, and evaluate model performance. The comparison between Simple and Multiple Linear Regression demonstrated how incorporating multiple relevant features can improve prediction accuracy and build more effective Machine Learning models.
+Today's session helped me understand how Linear Regression can be used to predict continuous values such as house prices. By building, testing, and evaluating both Simple and Multiple Linear Regression models, I gained practical experience in developing prediction models and understanding the complete workflow of a basic supervised machine learning project.

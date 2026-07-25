@@ -1,9 +1,7 @@
 # Day 21 - Summer Training Daily Diary
 
 ## Training Domain
-**Artificial Intelligence & Machine Learning (AI & ML) using Python**
-
----
+**Artific
 
 ## Objective
 

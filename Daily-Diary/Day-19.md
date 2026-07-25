@@ -1,108 +1,111 @@
-# Day 19 - Summer Training Report
+# Day 19 - Summer Training Daily Diary
 
-# Random Forest Classification and Model Comparison
-
-**Training Domain:** Artificial Intelligence & Machine Learning (AI & ML) using Python
+## Training Domain
+**Artificial Intelligence & Machine Learning (AI & ML) using Python**
 
 ---
 
 ## Objective
 
-The objective of today's session was to understand Random Forest as an ensemble learning algorithm and compare its performance with Decision Tree and Logistic Regression models. The session focused on building Random Forest models, evaluating classification performance, analyzing feature importance, and comparing different classification algorithms.
+Today's session focused on Random Forest Classification and its advantages over a single Decision Tree. I learned how ensemble learning improves prediction accuracy, how Random Forest combines multiple decision trees, and how to compare its performance with Logistic Regression and Decision Tree models.
+
+---
+
+## Tasks Assigned by the Industry Expert
+
+The following tasks were assigned during today's training session:
+
+1. Understand the concept of Ensemble Learning and Random Forest.
+2. Build a Random Forest Classification model using Scikit-learn.
+3. Evaluate the model using different classification metrics.
+4. Analyze feature importance in the trained model.
+5. Compare Random Forest with Logistic Regression and Decision Tree models.
+6. Experiment with different hyperparameter values to observe their effect on model performance.
+
+---
+
+## Work Performed
+
+During the practical session, I completed the following activities:
+
+- Built and trained a Random Forest Classifier using the Titanic dataset.
+- Generated predictions for the testing dataset.
+- Evaluated the model using Accuracy, Confusion Matrix, and Classification Report.
+- Performed Cross-Validation to check the consistency of model performance.
+- Analyzed feature importance using Gini Importance.
+- Compared feature importance with the coefficients obtained from Logistic Regression.
+- Compared the performance of Logistic Regression, Decision Tree, and Random Forest models.
+- Experimented with different values of `n_estimators` to observe their impact on prediction accuracy.
+- Tuned the `min_samples_leaf` parameter to improve model generalization.
+- Explored Permutation Feature Importance for feature analysis.
+- Compared the behaviour of Decision Tree and Random Forest models.
 
 ---
 
 ## Topics Covered
 
-### 1. Introduction to Random Forest
-
+### Introduction to Random Forest
 - Understanding Ensemble Learning.
 - Introduction to Random Forest.
 - Limitations of a single Decision Tree.
 - Advantages of combining multiple decision trees.
 
-### 2. Working of Random Forest
-
+### Working of Random Forest
 - Bootstrap Aggregation (Bagging).
 - Random sampling with replacement.
 - Feature Subspace Sampling.
 - Majority Voting for final prediction.
-- Reducing overfitting through ensemble methods.
+- Reducing overfitting using ensemble methods.
 
-### 3. Building a Random Forest Classifier
-
-- Training a Random Forest model using Scikit-learn.
+### Building a Random Forest Model
+- Training a Random Forest Classifier using Scikit-learn.
 - Setting the number of trees (`n_estimators`).
 - Limiting tree depth using `max_depth`.
 - Generating predictions for unseen data.
 
-### 4. Model Evaluation
-
+### Model Evaluation
 - Evaluating model accuracy.
-- Cross-validation.
-- Classification Report.
-- Confusion Matrix.
+- Performing Cross-Validation.
+- Understanding the Classification Report.
+- Interpreting the Confusion Matrix.
 - Comparing training and testing performance.
 
-### 5. Feature Importance
-
+### Feature Importance
 - Understanding Gini Importance.
 - Identifying the most influential features.
 - Comparing Random Forest feature importance with Logistic Regression coefficients.
-- Interpreting feature importance graphs.
+- Interpreting feature importance results.
 
-### 6. Classifier Comparison
-
+### Model Comparison
 - Comparing:
   - Logistic Regression
   - Decision Tree
   - Random Forest
-- Comparing test accuracy and cross-validation accuracy.
-- Understanding strengths and limitations of each classifier.
+- Comparing prediction accuracy and Cross-Validation scores.
+- Understanding the strengths and limitations of each classification algorithm.
 
-### 7. Practical Exercises
-
+### Practice Exercises
 - Experimenting with different values of `n_estimators`.
 - Tuning `min_samples_leaf`.
-- Performing Permutation Feature Importance.
-- Comparing Decision Tree and Random Forest decision boundaries.
-- Understanding the effect of hyperparameter tuning on model performance.
+- Exploring Permutation Feature Importance.
+- Comparing Decision Tree and Random Forest performance after parameter tuning.
 
 ---
 
-## Practical Activities Performed
+## Learning Outcomes
 
-During the practical session, I performed the following activities:
+At the end of today's session, I was able to:
 
-- Built a Random Forest Classifier using Scikit-learn.
-- Trained the model using the Titanic dataset.
-- Generated predictions for the testing dataset.
-- Evaluated model performance using Accuracy, Confusion Matrix, and Classification Report.
-- Performed Cross-Validation to assess model reliability.
-- Analyzed feature importance using Gini Importance.
-- Compared feature importance with Logistic Regression coefficients.
-- Compared the performance of Logistic Regression, Decision Tree, and Random Forest models.
-- Experimented with different values of `n_estimators`.
-- Performed hyperparameter tuning using `min_samples_leaf`.
-- Explored Permutation Feature Importance.
-- Compared Decision Tree and Random Forest decision boundaries.
-
----
-
-## Key Learning Outcomes
-
-By the end of today's session, I was able to:
-
-- Understand the working principle of Random Forest.
-- Explain the concept of Ensemble Learning.
-- Build and evaluate Random Forest models.
-- Interpret Classification Reports and Confusion Matrices.
+- Understand the concept of Ensemble Learning and Random Forest.
+- Explain how Random Forest improves upon a single Decision Tree.
+- Build and evaluate a Random Forest Classification model.
+- Interpret Accuracy, Confusion Matrix, and Classification Report.
 - Analyze feature importance using tree-based models.
-- Compare the performance of different classification algorithms.
-- Understand how ensemble methods improve prediction accuracy and reduce overfitting.
+- Compare the performance of Logistic Regression, Decision Tree, and Random Forest models.
+- Understand how hyperparameter tuning helps improve model performance and generalization.
 
 ---
 
 ## Conclusion
 
-Today's session introduced Random Forest as a powerful ensemble learning technique for classification problems. Through practical implementation and comparative analysis, I learned how Random Forest improves upon Decision Trees by combining multiple models, reducing overfitting, and providing more reliable predictions. The session also strengthened my understanding of feature importance and model comparison, which are essential for selecting appropriate Machine Learning algorithms.
+Today's practical session helped me understand how Random Forest combines multiple decision trees to produce more reliable predictions. By training the model, evaluating its performance, and comparing it with other classification algorithms, I gained practical knowledge of ensemble learning and feature importance. This session strengthened my understanding of selecting suitable classification models for Machine Learning problems.

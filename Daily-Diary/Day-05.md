@@ -7,13 +7,13 @@
 
 ## Objective
 
-The objective of today's training was to understand the fundamentals of NumPy and its significance in Artificial Intelligence and Machine Learning. The session focused on efficient array operations, vectorization, indexing, slicing, broadcasting, data filtering, statistical analysis, reshaping, matrix operations, and data preprocessing techniques used in machine learning.
+Today's training introduced NumPy, one of the most important Python libraries used in AI & ML. The session focused on learning how to create and work with arrays, perform mathematical operations efficiently, and use different NumPy features for data manipulation and preprocessing.
 
 ---
 
 ## Tasks Assigned by the Industry Expert
 
-The following tasks were assigned during today's training session:
+During today's training session, the following tasks were assigned:
 
 1. Understand the fundamentals and importance of NumPy in AI & ML.
 2. Create and manipulate one-dimensional and two-dimensional NumPy arrays.
@@ -25,17 +25,17 @@ The following tasks were assigned during today's training session:
 
 ---
 
-## Work Performed
+## Practical Work Completed
 
-During today's practical session, I completed the following activities:
+During the practical session, I worked on the following activities:
 
 - Created one-dimensional and two-dimensional NumPy arrays using different initialization methods.
 - Practiced array creation using `np.array()`, `np.zeros()`, `np.ones()`, and `np.arange()`.
 - Compared the execution speed of Python loops with NumPy vectorized operations.
 - Performed element-wise arithmetic operations on arrays.
-- Implemented indexing and slicing on one-dimensional and two-dimensional arrays.
+- Practiced indexing and slicing on one-dimensional and two-dimensional arrays.
 - Extracted feature matrices (`X`) and target labels (`y`) from sample datasets.
-- Applied Boolean indexing to filter data based on specific conditions.
+- Applied Boolean indexing to filter data based on different conditions.
 - Cleaned datasets using Boolean masks and `np.where()`.
 - Explored the difference between array Views and Copies using `.copy()`.
 - Applied broadcasting for arithmetic operations and feature standardization.
@@ -57,7 +57,7 @@ During today's practical session, I completed the following activities:
 
 ### Introduction to NumPy
 - Introduction to NumPy (Numerical Python).
-- Importance of NumPy in AI & Machine Learning.
+- Importance of NumPy in AI & ML.
 - Comparison between Python Lists and NumPy Arrays.
 - Advantages of contiguous memory allocation and faster computations.
 
@@ -100,7 +100,6 @@ During today's practical session, I completed the following activities:
 - Introduction to Broadcasting.
 - Broadcasting rules.
 - Scalar and array broadcasting.
-- Broadcasting with matrices.
 - Feature standardization using broadcasting.
 
 ### Statistical Operations
@@ -126,18 +125,18 @@ During today's practical session, I completed the following activities:
 By the end of today's training, I was able to:
 
 - Understand the advantages of NumPy over Python lists.
-- Create and manipulate one-dimensional and two-dimensional arrays efficiently.
-- Perform mathematical operations using vectorization.
+- Create and manipulate one-dimensional and two-dimensional arrays.
+- Perform mathematical operations efficiently using vectorization.
 - Apply indexing, slicing, and Boolean indexing for dataset manipulation.
 - Clean and filter datasets using Boolean masks and `np.where()`.
 - Differentiate between array Views and Copies.
 - Use broadcasting for efficient numerical computations.
 - Calculate statistical summaries for datasets.
-- Reshape and flatten arrays for AI & ML applications.
+- Reshape arrays for AI & ML applications.
 - Perform matrix multiplication and basic data preprocessing using NumPy.
 
 ---
 
 ## Conclusion
 
-Today's training focused on the fundamentals of NumPy and its practical applications in Artificial Intelligence and Machine Learning. I successfully completed all the tasks assigned by the industry expert, including array creation, vectorized computations, indexing, broadcasting, statistical analysis, matrix operations, and data preprocessing exercises. These hands-on activities strengthened my understanding of efficient numerical computing and prepared me for working with real-world AI & ML datasets.
+Today's session helped me understand how NumPy makes numerical computations and data processing much faster and more efficient than using standard Python lists. The practical exercises on array operations, broadcasting, statistical functions, and data preprocessing gave me hands-on experience with concepts that are widely used in AI & ML applications.

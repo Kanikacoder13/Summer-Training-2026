@@ -1,36 +1,63 @@
-# Day 17 - Summer Training Report
+# Day 17 - Summer Training Daily Diary
 
-# Logistic Regression for Classification
-
-**Training Domain:** Artificial Intelligence & Machine Learning (AI & ML) using Python
+## Training Domain
+**Artificial Intelligence & Machine Learning (AI & ML) using Python**
 
 ---
 
 ## Objective
 
-The objective of today's session was to understand Logistic Regression as a supervised Machine Learning algorithm for classification problems. The session focused on building Binary and Multiclass Classification models, evaluating model performance using different metrics, interpreting confusion matrices and classification reports, and comparing different classification approaches using the Titanic dataset.
+Today's session introduced Logistic Regression, a supervised Machine Learning algorithm used for classification problems. The main focus was on building Binary and Multiclass Classification models, evaluating their performance using different metrics, and understanding how Logistic Regression can be applied to real-world datasets like Titanic.
+
+---
+
+## Tasks Assigned by the Industry Expert
+
+The following tasks were assigned during today's training session:
+
+1. Understand the basics of Logistic Regression.
+2. Build a Binary Classification model using the Titanic dataset.
+3. Evaluate the model using different classification metrics.
+4. Develop a Multiclass Classification model.
+5. Compare Binary and Multiclass Logistic Regression.
+6. Improve model performance by experimenting with different features and prediction thresholds.
+
+---
+
+## Work Performed
+
+During the practical session, I completed the following activities:
+
+- Loaded and explored the Titanic dataset using Pandas.
+- Selected suitable input features and target variables for classification.
+- Split the dataset into training and testing sets.
+- Built and trained a Binary Logistic Regression model to predict passenger survival.
+- Generated predictions for the testing dataset.
+- Evaluated the model using Accuracy, Confusion Matrix, and Classification Report.
+- Built a Multiclass Logistic Regression model to predict passenger class.
+- Compared the performance of Binary and Multiclass Classification models.
+- Added the **Pclass** feature to observe its effect on prediction accuracy.
+- Used `predict_proba()` to experiment with different probability thresholds.
+- Analyzed how changing the decision threshold affected model predictions and the confusion matrix.
 
 ---
 
 ## Topics Covered
 
-### 1. Introduction to Logistic Regression
-
-- Understanding Logistic Regression as a supervised Machine Learning algorithm.
+### Introduction to Logistic Regression
+- Logistic Regression as a supervised Machine Learning algorithm.
 - Difference between Regression and Classification problems.
 - Binary Classification and Multiclass Classification.
-- Applications of Logistic Regression in Machine Learning.
+- Applications of Logistic Regression.
 
-### 2. Binary Classification
-
+### Binary Classification
 - Predicting passenger survival using the Titanic dataset.
 - Selecting input features and target variable.
-- Splitting the dataset into training and testing sets.
+- Splitting data into training and testing sets.
 - Training the Logistic Regression model.
-- Generating predictions for unseen data.
+- Making predictions on unseen data.
 
-### 3. Model Evaluation
-
+### Model Evaluation
 - Calculating model accuracy.
 - Understanding the Confusion Matrix.
 - Interpreting:
@@ -45,76 +72,41 @@ The objective of today's session was to understand Logistic Regression as a supe
   - F1-Score
   - Accuracy
 
-### 4. Multiclass Classification
-
+### Multiclass Classification
 - Predicting Passenger Class (`Pclass`) using Logistic Regression.
-- Understanding multiclass classification problems.
 - Introduction to:
   - One-vs-Rest (OvR)
   - Multinomial (Softmax) Classification
-- Training and testing a multiclass Logistic Regression model.
+- Training and testing a multiclass classification model.
 
-### 5. Multiclass Model Evaluation
+### Model Comparison
+- Comparing Binary and Multiclass Classification.
+- Difference in prediction methods and outputs.
+- Understanding Sigmoid and Softmax functions.
+- Comparing confusion matrices for different classification tasks.
 
-- Evaluating multiclass predictions.
-- Generating a multiclass Confusion Matrix.
-- Interpreting the Classification Report for multiple classes.
-- Comparing prediction performance across different passenger classes.
-
-### 6. Model Comparison
-
-- Comparing Binary Classification and Multiclass Classification.
-- Understanding:
-  - Number of classes
-  - Prediction methods
-  - Output interpretation
-  - Confusion Matrix differences
-  - Sigmoid vs Softmax functions
-
-### 7. Practice Exercises
-
+### Practice Exercises
 - Improving Binary Classification by adding the **Pclass** feature.
-- Comparing prediction accuracy before and after feature addition.
-- Understanding the effect of feature selection on model performance.
+- Comparing model performance before and after feature addition.
 - Experimenting with different probability thresholds using `predict_proba()`.
-- Observing the effect of threshold changes on classification results and confusion matrices.
+- Observing the effect of threshold changes on prediction accuracy.
 
 ---
 
-## Practical Activities Performed
+## Learning Outcomes
 
-During the practical session, I performed the following activities:
-
-- Loaded and explored the Titanic dataset.
-- Selected appropriate input features and target variables.
-- Split the dataset into training and testing sets.
-- Built and trained a Binary Logistic Regression model.
-- Generated survival predictions for the testing dataset.
-- Evaluated model performance using Accuracy, Confusion Matrix, and Classification Report.
-- Built and trained a Multiclass Logistic Regression model for passenger class prediction.
-- Generated predictions for multiclass classification.
-- Compared Binary and Multiclass Logistic Regression models.
-- Added an additional feature (`Pclass`) to improve binary classification performance.
-- Experimented with custom probability thresholds using `predict_proba()`.
-- Analyzed how changing the decision threshold affected prediction results.
-
----
-
-## Key Learning Outcomes
-
-By the end of today's session, I was able to:
+At the end of today's session, I was able to:
 
 - Understand the working principle of Logistic Regression.
-- Differentiate between Binary and Multiclass Classification.
-- Train Logistic Regression models using Scikit-learn.
+- Differentiate between Binary and Multiclass Classification problems.
+- Build and train Logistic Regression models using Scikit-learn.
 - Evaluate classification models using Accuracy, Precision, Recall, F1-Score, and Confusion Matrix.
 - Understand the concepts of One-vs-Rest and Multinomial Classification.
-- Analyze the impact of feature selection on model performance.
-- Understand how decision thresholds influence classification outcomes.
-- Compare different classification approaches for Machine Learning applications.
+- Analyze how feature selection and probability thresholds affect model performance.
+- Interpret classification results for different Machine Learning tasks.
 
 ---
 
 ## Conclusion
 
-Today's session provided practical knowledge of Logistic Regression for both Binary and Multiclass Classification using the Titanic dataset. Through model training, evaluation, comparison, and hands-on exercises, I learned how to develop classification models, interpret evaluation metrics, improve prediction performance through feature selection, and analyze the effect of decision thresholds. These concepts form an essential foundation for solving real-world classification problems in Machine Learning.
+Today's practical session gave me a clear understanding of Logistic Regression and its use in solving classification problems. By working with the Titanic dataset, I learned how to build, evaluate, and compare Binary and Multiclass Classification models using different performance metrics. I also understood how feature selection and decision thresholds can influence prediction accuracy, making this session an important step in learning Machine Learning classification techniques.
